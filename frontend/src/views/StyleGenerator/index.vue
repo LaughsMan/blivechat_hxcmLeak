@@ -2,6 +2,9 @@
   <el-row :gutter="20">
     <el-col :sm="24" :md="16">
       <el-tabs v-model="activeTab">
+        <el-tab-pane :label="$t('hxcmLeak')" name="hxcm">
+          <hxcm ref="hxcm" v-model="subComponentResults.hxcm"></hxcm>
+        </el-tab-pane>
         <el-tab-pane :label="$t('stylegen.legacy')" name="legacy">
           <legacy ref="legacy" v-model="subComponentResults.legacy"></legacy>
         </el-tab-pane>
@@ -31,7 +34,8 @@
             <el-switch v-model="playAnimation" @change="onPlayAnimationChange"></el-switch>
           </el-form-item>
           <el-form-item :label="$t('stylegen.backgrounds')" style="margin: 0 0 0 30px">
-            <el-switch v-model="exampleBgLight" :active-text="$t('stylegen.light')" :inactive-text="$t('stylegen.dark')"></el-switch>
+            <el-switch v-model="exampleBgLight" :active-text="$t('stylegen.light')"
+              :inactive-text="$t('stylegen.dark')"></el-switch>
           </el-form-item>
         </el-form>
         <div id="example-container" :class="{ light: exampleBgLight }">
@@ -49,12 +53,13 @@ import _ from 'lodash'
 
 import Legacy from './Legacy'
 import LineLike from './LineLike'
+import hxcm from './hxcm'
 import Room from '@/views/Room'
 
 export default {
   name: 'StyleGenerator',
   components: {
-    Legacy, LineLike, Room
+    Legacy, LineLike, Room, hxcm
   },
   data() {
     let styleElement = document.createElement('style')
@@ -66,9 +71,10 @@ export default {
       // 子组件的结果
       subComponentResults: {
         legacy: '',
-        lineLike: ''
+        lineLike: '',
+        hxcm: ''
       },
-      activeTab: 'legacy',
+      activeTab: 'hxcm',
       // 输入框的结果
       inputResult: '',
       // 防抖后延迟变化的结果
