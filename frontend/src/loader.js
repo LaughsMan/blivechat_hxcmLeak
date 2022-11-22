@@ -3,49 +3,35 @@ import { hxcmData } from "./lastest"
 
 class hxcmLeak {
     constructor() {
-        console.log("不用查了，淘宝奸商，你妈死了，人在脚盆，欢迎报警，开源万岁")
+        console.log("Words that kill, would you speak them to me\nWith your breath so still, it makes me believe\nthe sins never die, can't wash this blood of our hands\nlet the world fear us all, it just means to an end\n\nour salvation lies, in the father's sins\nbeyond the truth, let me suffer now\nin my heart i just know that there's no way to light up the dark in his eyes")
         this.list = new Map()
 
         hxcmData.data.content.forEach(
             style => {
-                let s = new hxcmStyle(style.materialName, style.catalogue, `https://hxcm.pandamiao.com/bullet-chat/image/${style.coverImage}`, style.content)
-                this.list.set(s.name, s)
+                let s = new hxcmStyle(style.id, style.pid, style.name, style.catalogue, style.coverImage, style.defaultWidth, style.updateTime)
+                this.list.set(s.id, s)
             })
-        console.log(this.list)
         console.log(`共加载了${this.list.size}个样式`)
     }
 
     list = null
 
     array() {
-        return Array.from(this.list.values()).sort(
-            (a, b) => {
-                return a.name.localeCompare(b.name)
-            })
+        return Array.from(this.list.values((a, b) => { return a.id.localeCompare(b.id) }))
     }
-
-    get_Name(id) {
-        return this.list.has(id) ? hxcmLeak.list.get(id).name : "无效ID"
-    }
-
-    get_CSS(id) {
-        return this.list.has(id) ? hxcmLeak.list.get(id).css : "无效ID"
-    }
-
-    cssinput = null
 }
 
 class hxcmStyle {
-    constructor(name, catalogue, preview, css) {
+    constructor(id, pid, name, catalogue, preview, defaultWidth, updateTime) {
+        this.id = id
+        this.pid = pid
         this.name = name
         this.catalogue = catalogue
+        this.defaultWidth = defaultWidth
         this.preview = preview
-        this.css = css
+        this.updateTime = updateTime
     }
 
-    load() {
-
-    }
 }
 
 export default new hxcmLeak()

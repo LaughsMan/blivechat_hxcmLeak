@@ -1,0 +1,643 @@
+@font-face {
+  font-family: 'Alibaba PuHuiTi';
+  src: url('https://css.pandamiao.com/ZT/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E6%99%AE%E6%83%A0%E4%BD%93/Alibaba-PuHuiTi-Bold.ttf') format('opentype');
+}
+
+yt-live-chat-ticker-renderer {
+  display: none !important;
+}
+
+yt-live-chat-text-message-renderer #image-and-message .emoji {
+  width: 80px !important;
+  height: auto !important;
+}
+
+yt-live-chat-text-message-renderer:not([author-type=member]) {
+  border: 20px solid #eee !important;
+  position: relative;
+  margin: 10px 13px !important;
+  padding: 12px 24px 5px 24px !important;
+  overflow: visible !important
+}
+
+yt-live-chat-text-message-renderer #card {
+  width: 100% !important
+}
+
+yt-live-chat-text-message-renderer:not([author-type=member]) #content {
+  padding-left: 60px !important;
+  padding-right: 100px !important;
+  width: 100% !important;
+  position: relative !important
+}
+
+yt-live-chat-text-message-renderer:not([author-type=member]) yt-live-chat-author-chip {
+  margin-bottom: 5px !important
+}
+
+yt-live-chat-text-message-renderer:not([author-type=member]) #author-name {
+  line-height: 20px !important;
+  font-family: "Alibaba PuHuiTi" !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  padding: 0 55px 2px 0 !important;
+  position: relative !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  max-width: 255px !important
+}
+
+yt-live-chat-text-message-renderer:not([author-type=member]) #author-name::before {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  content: "";
+  display: block;
+  height: 19px;
+  width: 31.7px;
+  background-size: 100% 100% !important
+}
+
+yt-live-chat-text-message-renderer:not([author-type=member]) #image-and-message {
+  width: 100% !important;
+  display: inline-block !important;
+  box-sizing: border-box !important;
+  overflow: visible !important
+}
+
+yt-live-chat-text-message-renderer:not([author-type=member]) #message {
+  line-height: 22px !important;
+  font-family: "Alibaba PuHuiTi" !important;
+  font-weight: 700 !important;
+  font-size: 22px !important;
+  padding-right: 0 !important
+}
+
+yt-live-chat-text-message-renderer:not([author-type=member]) #author-photo {
+  position: absolute !important;
+  top: 11px !important;
+  left: 11px !important;
+  height: 55px !important;
+  width: 55px !important;
+  overflow: visible !important
+}
+
+yt-live-chat-text-message-renderer:not([author-type=member]) #author-photo::before {
+  position: absolute;
+  top: -5px;
+  left: -6px;
+  content: "";
+  display: block;
+  height: 123%;
+  width: 125%;
+  background-size: 100% 100% !important
+}
+
+yt-live-chat-text-message-renderer #author-photo img {
+  height: 100% !important;
+  width: 100% !important;
+  border-radius: 50%
+}
+
+yt-live-chat-text-message-renderer:not([author-type=member]) #image-and-message img {
+  display: inline-block !important;
+  margin: 3px 3px -3px 3px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] {
+  border-image: url(https://img.alicdn.com/imgextra/i3/2212481236882/O1CN01yjJ83B20i0RnfliU0_!!2212481236882.png) 30 fill !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""]::before {
+  position: absolute;
+  top: -21px;
+  left: -13px;
+  display: block;
+  content: "";
+  width: 51.43px;
+  height: 35px;
+  background: url(https://img.alicdn.com/imgextra/i1/2212481236882/O1CN01L2qnDn20i0RpEfukD_!!2212481236882.png) no-repeat;
+  background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=""]::after {
+  position: absolute;
+  top: -7px;
+  right: -3px;
+  display: block;
+  content: "";
+  width: 36px;
+  height: 28px;
+  background: url(https://img.alicdn.com/imgextra/i3/2212481236882/O1CN01csn8Ll20i0RqlBoSx_!!2212481236882.png) no-repeat;
+  background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #content::before {
+  position: absolute;
+  bottom: -11px;
+  right: -11px;
+  display: block;
+  content: "";
+  width: 107px;
+  height: 70px;
+  background: url(https://img.alicdn.com/imgextra/i4/2212481236882/O1CN011YAlLH20i0RjvZbZw_!!2212481236882.png) no-repeat;
+  background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-name {
+  color: #9e3030 !important;
+  border-bottom: 4px solid #fbc9c9 !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-name::before {
+  background: url(https://img.alicdn.com/imgextra/i4/2212481236882/O1CN012Kdnad20i0RrvWvh3_!!2212481236882.png) no-repeat
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #message {
+  color: #cb7476 !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-photo::before {
+  background: url(https://img.alicdn.com/imgextra/i3/2212481236882/O1CN0101sKZU20i0RtjjT89_!!2212481236882.png) no-repeat
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator],
+yt-live-chat-text-message-renderer[author-type=owner] {
+  border-image: url(https://img.alicdn.com/imgextra/i4/2212481236882/O1CN01Uy6lAt20i0Rm2M2AP_!!2212481236882.png) 30 fill !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator]::before,
+yt-live-chat-text-message-renderer[author-type=owner]::before {
+  position: absolute;
+  top: -12px;
+  left: -18px;
+  display: block;
+  content: "";
+  width: 114px;
+  height: 70px;
+  background: url(https://img.alicdn.com/imgextra/i3/2212481236882/O1CN01dGKXM920i0RrvVSKQ_!!2212481236882.png) no-repeat;
+  background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #content::before,
+yt-live-chat-text-message-renderer[author-type=owner] #content::before {
+  position: absolute;
+  bottom: -18px;
+  right: -11px;
+  display: block;
+  content: "";
+  width: 107px;
+  height: 80px;
+  background: url(https://img.alicdn.com/imgextra/i3/2212481236882/O1CN01VPJqOz20i0RuP47tb_!!2212481236882.png) no-repeat;
+  background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #author-name,
+yt-live-chat-text-message-renderer[author-type=owner] #author-name {
+  color: #d5996d !important;
+  border-bottom: 4px solid #e8c09a !important;
+  background-color: transparent !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #author-name::before,
+yt-live-chat-text-message-renderer[author-type=owner] #author-name::before {
+  background: url(https://img.alicdn.com/imgextra/i3/2212481236882/O1CN01rCIoSj20i0RqlA8Zj_!!2212481236882.png) no-repeat
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #message,
+yt-live-chat-text-message-renderer[author-type=owner] #message {
+  color: #e9ae7e !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #author-photo::before,
+yt-live-chat-text-message-renderer[author-type=owner] #author-photo::before {
+  background: url(https://img.alicdn.com/imgextra/i3/2212481236882/O1CN01d2DAJr20i0RmkI5KN_!!2212481236882.png) no-repeat
+}
+
+yt-live-chat-text-message-renderer[author-type=member] {
+  position: relative;
+  margin: 35px 20px !important;
+  padding: 0 !important;
+  overflow: visible !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #content {
+  position: relative !important;
+  width: 100% !important;
+  padding: 0 !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] yt-live-chat-author-chip {
+  margin: 0 !important;
+  position: absolute !important;
+  top: -22px;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #author-name {
+  line-height: 16px !important;
+  font-weight: 700 !important;
+  font-family: Alibaba !important;
+  color: #fff !important;
+  font-size: 16px !important;
+  padding: 2px 15px !important;
+  position: relative !important;
+  background-color: #cd8587 !important;
+  border-radius: 10px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #author-name::before {
+  position: absolute;
+  top: 2px;
+  left: -25px;
+  content: "";
+  display: block;
+  height: 17px;
+  width: 19px;
+  background: url(https://img.alicdn.com/imgextra/i4/2212481236882/O1CN01h45VnZ20i0RmkI9Xn_!!2212481236882.png) no-repeat;
+  background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #author-name::after {
+  position: absolute;
+  top: 2px;
+  right: -25px;
+  content: "";
+  display: block;
+  height: 17px;
+  width: 19px;
+  background: url(https://img.alicdn.com/imgextra/i4/2212481236882/O1CN01h45VnZ20i0RmkI9Xn_!!2212481236882.png) no-repeat;
+  background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #image-and-message {
+  border: 10px solid #eee !important;
+  border-image: url(https://img.alicdn.com/imgextra/i1/2212481236882/O1CN011rgaBA20i0Ro2IzMu_!!2212481236882.png) 16 fill !important;
+  padding: 0 100px !important;
+  display: inline-block !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  min-height: 68px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #image-and-message::before {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  content: "";
+  display: block;
+  height: 83px;
+  width: 90px;
+  background: url(https://img.alicdn.com/imgextra/i2/2212481236882/O1CN01Px5gwO20i0RnfnfAG_!!2212481236882.png) no-repeat;
+  background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #image-and-message::after {
+  position: absolute;
+  bottom: -6px;
+  right: 3px;
+  content: "";
+  display: block;
+  height: 35px;
+  width: 35px;
+  background: url(https://img.alicdn.com/imgextra/i3/2212481236882/O1CN01EAb1YY20i0RuP2Nqi_!!2212481236882.png) no-repeat;
+  background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #message {
+  line-height: 24px !important;
+  font-size: 22px !important;
+  font-family: "Alibaba PuHuiTi" !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  text-align: justify !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #author-photo {
+  position: absolute !important;
+  top: 6px !important;
+  right: 25px !important;
+  height: 55px !important;
+  width: 55px !important;
+  overflow: visible !important;
+  z-index: 99 !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #author-photo::before {
+  position: absolute;
+  top: -14px;
+  left: -3.5px;
+  content: "";
+  display: block;
+  height: 132%;
+  width: 110%;
+  background: url(https://img.alicdn.com/imgextra/i2/2212481236882/O1CN01Z2yAY920i0RqlBc3y_!!2212481236882.png) no-repeat;
+  background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #image-and-message img {
+  display: inline-block !important;
+  margin: 0 3px -4px 3px !important
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] {
+  margin: 25px 0 0 0 !important;
+  overflow: visible !important;
+  padding: 4px 12px !important
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] #card {
+  position: relative !important;
+  overflow: visible !important
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] #header {
+  background-color: transparent !important;
+  background: url(https://img.alicdn.com/imgextra/i2/2212481236882/O1CN01a5YlXN20i0RsfF9FU_!!2212481236882.png) no-repeat !important;
+  background-size: 100% 100% !important;
+  position: relative !important;
+  padding: 5px 16px 35px 0 !important
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] #header::before {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  display: block;
+  content: "";
+  width: 252px;
+  height: 71px;
+  background: url(https://img.alicdn.com/imgextra/i3/2212481236882/O1CN01ZBSnxb20i0RsfFkgb_!!2212481236882.png) no-repeat;
+  background-size: 100%;
+  z-index: 99 !important
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] #header::after {
+  position: absolute;
+  top: -16px;
+  right: -7px;
+  display: block;
+  content: "";
+  width: 286px;
+  height: 103px;
+  background: url(https://img.alicdn.com/imgextra/i2/2212481236882/O1CN018uPWjH20i0Rm5wr5H_!!2212481236882.png) no-repeat;
+  background-size: 100%;
+  z-index: 99 !important
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] #header-content {
+  position: relative !important
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] yt-img-shadow {
+  position: absolute !important;
+  top: 17px;
+  left: 60px;
+  height: 55px !important;
+  width: 55px !important;
+  overflow: visible !important;
+  z-index: 100 !important
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] yt-img-shadow img {
+  height: 100% !important;
+  width: 100% !important;
+  border-radius: 50% !important
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] #header-content-primary-column {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  width: 100% !important;
+  padding: 5px 0 9px 50px !important;
+  position: relative !important
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] #author-name {
+  font-size: 28px !important;
+  line-height: 28px !important;
+  font-family: Alibaba !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  margin-left: 70px !important;
+  margin-top: 12px !important;
+  z-index: 100 !important;
+  position: relative !important;
+  text-shadow: pink 1px 0 0, pink 0 1px 0, pink -1px 0 0, pink 0 -1px 0 !important
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] #author-name::before {
+  position: absolute;
+  bottom: -21px;
+  left: 0;
+  display: block;
+  content: "";
+  width: 134px !important;
+  height: 11px;
+  background: url(https://img.alicdn.com/imgextra/i2/2212481236882/O1CN01Jqfnyd20i0RrvaUG5_!!2212481236882.png) no-repeat;
+  background-size: 100%;
+  z-index: 100 !important
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] #header-subtext {
+  display: none !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) {
+  padding: 4px 4px 4px 0 !important;
+  position: relative !important;
+  margin: 15px 10px 15px 12px !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #card {
+  background: 0 0 !important;
+  overflow: visible !important;
+  border: 20px solid #eee !important;
+  border-image: url(https://img.alicdn.com/imgextra/i2/2212481236882/O1CN01fwTE2p20i0RsfHZ1B_!!2212481236882.png) 35 fill !important;
+  position: relative !important;
+  box-shadow: none !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #card::before {
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  content: "";
+  width: calc(100% - 170px);
+  height: 35px;
+  background: url(https://img.alicdn.com/imgextra/i4/2212481236882/O1CN01gRTctA20i0RsfHA5B_!!2212481236882.png) no-repeat;
+  background-size: 100%
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #card::after {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  display: block;
+  content: "";
+  width: 49px;
+  height: 38px;
+  background: url(https://img.alicdn.com/imgextra/i2/2212481236882/O1CN01M456SA20i0RcvMiDE_!!2212481236882.png) no-repeat;
+  background-size: 100%
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #header {
+  overflow: visible !important;
+  position: relative !important;
+  padding: 0 16px 4px 16px !important;
+  margin: 0 5px !important;
+  background-color: transparent !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-photo {
+  overflow: visible !important;
+  position: absolute !important;
+  top: 7px !important;
+  left: 8px;
+  width: 55px !important;
+  height: 55px !important;
+  border-radius: 50% !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-photo img {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 50% !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #header-content-primary-column {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  flex-direction: row !important;
+  margin: 0 !important;
+  padding: 30px 0 0 0 !important;
+  position: relative !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-name {
+  font-size: 20px !important;
+  line-height: 20px !important;
+  font-family: Alibaba !important;
+  color: #9e3030 !important;
+  font-weight: 700 !important;
+  padding: 0 !important;
+  position: absolute !important;
+  top: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  max-width: 180px !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #purchase-amount {
+  display: none !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #content {
+  padding: 5px 85px 0 20px !important;
+  position: relative !important;
+  background-color: transparent !important;
+  margin: 0 0 0 65px !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #message {
+  font-size: 22px !important;
+  line-height: 22px !important;
+  font-family: "Alibaba PuHuiTi" !important;
+  color: #cb7476 !important;
+  font-weight: 700 !important;
+  text-align: justify !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #message:empty {
+  display: block !important;
+  min-height: 22px !important
+}
+
+body,
+yt-live-chat-renderer {
+  background-color: transparent !important
+}
+
+::-webkit-scrollbar {
+  display: none !important
+}
+
+yt-live-chat-ticker-renderer {
+  background-color: transparent !important
+}
+
+#medal-card {
+  display: none !important
+}
+
+#chat-badges {
+  display: none !important
+}
+
+#chat-badges yt-icon {
+  display: none !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] {
+  padding: 4px 15px !important;
+  margin: 15px 0 !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #card {
+  border: 5px solid #eee !important;
+  border-image: url(https://img.alicdn.com/imgextra/i2/2212481236882/O1CN01a5YlXN20i0RsfF9FU_!!2212481236882.png) 15 fill !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #header {
+  background: 0 0 !important;
+  padding: 5px 32px 8px 16px !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #header-content-primary-column {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  flex-direction: row !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #author-name {
+  font-family: AlibabaPuHuiTi !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  line-height: 18px !important;
+  margin-left: 45px !important;
+  position: relative !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #author-name::before {
+  position: absolute;
+  top: -22px;
+  left: -22px;
+  display: block;
+  content: "";
+  height: 35px;
+  width: 51.42px;
+  background: url(https://img.alicdn.com/imgextra/i1/2212481236882/O1CN01L2qnDn20i0RpEfukD_!!2212481236882.png) no-repeat;
+  background-size: 100% 100%
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #purchase-amount {
+  font-family: "Alibaba PuHuiTi" !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  font-size: 14px !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] yt-img-shadow {
+  display: none !important
+}
