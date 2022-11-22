@@ -1,0 +1,986 @@
+@font-face {
+    font-family: '台灣圓體';
+    src: url(static/pandamiao/lfcss.pandamiao.com/ZT/TaiwanPearl-SemiBold.ttf) format('opentype')
+}
+
+yt-live-chat-text-message-renderer #image-and-message .emoji {
+    width: 80px !important;
+    height: auto !important
+}
+
+yt-live-chat-text-message-renderer #image-and-message .image {
+    display: inline-block !important;
+    margin: 0 5px -3px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""],
+yt-live-chat-text-message-renderer[author-type=member] {
+    position: relative;
+    margin: 20px 50px 0 20px !important;
+    padding: 0 0 0 75px !important;
+    overflow: visible !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #card {
+    width: 100% !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #content {
+    position: relative !important;
+    top: 0;
+    width: 100% !important;
+    padding: 0 0 0 25px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] yt-live-chat-author-chip,
+yt-live-chat-text-message-renderer[author-type=comein] yt-live-chat-author-chip,
+yt-live-chat-text-message-renderer[author-type=concern] yt-live-chat-author-chip,
+yt-live-chat-text-message-renderer[author-type=member] yt-live-chat-author-chip,
+yt-live-chat-text-message-renderer[author-type=moderator] yt-live-chat-author-chip,
+yt-live-chat-text-message-renderer[author-type=owner] yt-live-chat-author-chip {
+    margin: 0 0 0 50px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-name {
+    line-height: 16px !important;
+    font-size: 16px !important;
+    font-family: "台灣圓體" !important;
+    font-weight: 700 !important;
+    color: #d4e09b !important;
+    padding: 1px 5px 1px 2px !important;
+    position: relative !important;
+    bottom: -1px;
+    border-radius: 0 !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #image-and-message {
+    border: 5px solid #fff !important;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 7px 3px #fff;
+    margin: 5px !important;
+    position: relative !important;
+    padding: 0 10px 0 3px !important;
+    width: 100% !important;
+    display: inline-block !important;
+    box-sizing: border-box !important;
+    overflow: visible !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #card #content::before {
+    position: absolute;
+    top: -3px;
+    left: 20px;
+    display: block;
+    content: "";
+    width: 73px;
+    height: 75px;
+    z-index: 5;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/普通-O1CN01SFm1VB20i0SP5TTFH_!!2212481236882.png) no-repeat;
+    background-size: 70%
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #card #content #image-and-message::before {
+    position: absolute;
+    bottom: -33px;
+    left: -15px;
+    display: block;
+    content: "";
+    width: 70px;
+    height: 39px;
+    z-index: 6;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/普通236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #card #content::after {
+    position: absolute;
+    top: 10px;
+    right: -35px;
+    display: block;
+    content: "";
+    width: 73px;
+    height: 75px;
+    z-index: 5;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/普通O1CN01dUFV9B20i0SJzWJJ8_!!2212481236882.png) no-repeat;
+    background-size: 80%
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #image-and-message::after {
+    position: absolute;
+    bottom: -19px;
+    right: -15px;
+    display: block;
+    content: "";
+    width: 32px;
+    height: 20px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/普通O1CN01mqj3Ld20i0SOT5cOb_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #message {
+    line-height: 24px !important;
+    font-size: 22px !important;
+    font-family: "台灣圓體" !important;
+    font-weight: 700;
+    color: #d4e09b !important;
+    text-align: justify !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-photo {
+    position: absolute !important;
+    top: -3px !important;
+    left: 0 !important;
+    height: 65px !important;
+    width: 65px !important;
+    overflow: visible !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-photo::before {
+    position: absolute;
+    top: -9px;
+    left: -19px;
+    content: "";
+    display: block;
+    height: 115%;
+    width: 161%;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/普通-022.png) no-repeat;
+    background-size: 104% 104%
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-photo img {
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 50% !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #image-and-message img {
+    display: inline-block !important;
+    margin: 5px 3px -5px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] {
+    margin: 25px 50px 0 20px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #card {
+    width: 100% !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #content {
+    position: relative !important;
+    top: 0;
+    width: 100% !important;
+    padding: 0 0 0 25px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #author-name {
+    line-height: 16px !important;
+    font-size: 16px !important;
+    font-family: "台灣圓體" !important;
+    font-weight: 700 !important;
+    color: #f19c79 !important;
+    padding: 1px 5px 1px 2px !important;
+    position: relative !important;
+    bottom: -1px;
+    border-radius: 0 !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #author-name::before {
+    position: absolute;
+    top: -1px;
+    right: -12px;
+    display: block;
+    content: "";
+    width: 13px;
+    height: 21px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/舰长O1CN01e2coV920i0SUV9t43_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #image-and-message {
+    border: 5px solid #fff !important;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 7px 3px #fff;
+    margin: 5px !important;
+    position: relative !important;
+    padding: 0 10px 0 3px !important;
+    width: 100% !important;
+    display: inline-block !important;
+    box-sizing: border-box !important;
+    overflow: visible !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #card #content::before {
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    display: block;
+    content: "";
+    width: 73px;
+    height: 70px;
+    z-index: 5;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/舰长O1CN014SVSsY20i0SRgdtkp_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #card #content #image-and-message::before {
+    position: absolute;
+    bottom: -34px;
+    left: -13px;
+    display: block;
+    content: "";
+    width: 45px;
+    height: 39px;
+    z-index: 6;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/舰长O1CN01G7ztct20i0SX2fT4h_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #card #content::after {
+    position: absolute;
+    top: -11px;
+    right: -29px;
+    display: block;
+    content: "";
+    width: 89px;
+    height: 75px;
+    z-index: 5;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/舰长O1CN01XRKbsQ20i0SQSdndc_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #image-and-message::after {
+    position: absolute;
+    bottom: -32px;
+    right: -37px;
+    display: block;
+    content: "";
+    width: 63px;
+    height: 50px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/舰长O1CN01t08fuO20i0SFA5m0L_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #message {
+    line-height: 24px !important;
+    font-size: 24px !important;
+    font-family: "台灣圓體" !important;
+    font-weight: 700 !important;
+    color: #f19c79 !important;
+    text-align: justify !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #author-photo {
+    position: absolute !important;
+    top: -3px !important;
+    left: 0 !important;
+    height: 65px !important;
+    width: 65px !important;
+    overflow: visible !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #author-photo::before {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    content: "";
+    display: block;
+    height: 123%;
+    width: 156%;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/舰长O1CN01Iewzpm20i0SFA35i1_!!2212481236882.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #author-photo img {
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 50% !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #image-and-message img {
+    display: inline-block !important;
+    margin: 5px 3px -5px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein],
+yt-live-chat-text-message-renderer[author-type=concern],
+yt-live-chat-text-message-renderer[author-type=moderator],
+yt-live-chat-text-message-renderer[author-type=owner] {
+    position: relative;
+    margin: 20px 50px 0 20px !important;
+    padding: 0 0 0 75px !important;
+    overflow: visible !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #card,
+yt-live-chat-text-message-renderer[author-type=owner] #card {
+    width: 100% !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #content,
+yt-live-chat-text-message-renderer[author-type=owner] #content {
+    position: relative !important;
+    top: 0;
+    width: 100% !important;
+    padding: 0 0 0 25px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #author-name,
+yt-live-chat-text-message-renderer[author-type=owner] #author-name {
+    line-height: 16px !important;
+    font-size: 16px !important;
+    font-family: "台灣圓體" !important;
+    font-weight: 700 !important;
+    color: #f0cc7f !important;
+    background-color: transparent !important;
+    padding: 1px 5px 1px 2px !important;
+    position: relative !important;
+    bottom: -1px;
+    border-radius: 0 !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #author-name::before,
+yt-live-chat-text-message-renderer[author-type=owner] #author-name::before {
+    position: absolute;
+    top: 2px;
+    right: -12px;
+    display: block;
+    content: "";
+    width: 14px;
+    height: 16px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/房管O1CN01NcbkeU20i0SX2e3kr_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #image-and-message,
+yt-live-chat-text-message-renderer[author-type=owner] #image-and-message {
+    border: 5px solid #fff !important;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 7px 3px #fff;
+    margin: 5px 5px 13px !important;
+    position: relative !important;
+    padding: 0 10px 0 3px !important;
+    width: 100% !important;
+    display: inline-block !important;
+    box-sizing: border-box !important;
+    overflow: visible !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #content::before,
+yt-live-chat-text-message-renderer[author-type=owner] #content::before {
+    position: absolute;
+    top: 9px;
+    left: 14px;
+    display: block;
+    content: "";
+    width: 62px;
+    height: 70px;
+    z-index: 5;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/房管O1CN01xiyYJo20i0SLXj0EU_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #image-and-message::before,
+yt-live-chat-text-message-renderer[author-type=owner] #image-and-message::before {
+    position: absolute;
+    bottom: -31px;
+    left: -27px;
+    display: block;
+    content: "";
+    width: 44px;
+    height: 50px;
+    z-index: 6;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/房管O1CN01Frt9do20i0SUVAQJb_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #content::after,
+yt-live-chat-text-message-renderer[author-type=owner] #content::after {
+    position: absolute;
+    top: 2px;
+    right: -25px;
+    display: block;
+    content: "";
+    width: 95px;
+    height: 70px;
+    z-index: 5;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/房管O1CN01pJyRBv20i0SJzVyXO_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #image-and-message::after,
+yt-live-chat-text-message-renderer[author-type=owner] #image-and-message::after {
+    position: absolute;
+    bottom: -43px;
+    right: -25px;
+    display: block;
+    content: "";
+    width: 55px;
+    height: 50px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/房管O1CN01wdAUHM20i0SLXiKfP_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #message,
+yt-live-chat-text-message-renderer[author-type=owner] #message {
+    line-height: 24px !important;
+    font-size: 24px !important;
+    font-family: "台灣圓體" !important;
+    font-weight: 700 !important;
+    color: #f0cc7f !important;
+    text-align: justify !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #author-photo,
+yt-live-chat-text-message-renderer[author-type=owner] #author-photo {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    height: 65px !important;
+    width: 65px !important;
+    overflow: visible !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #author-photo::before,
+yt-live-chat-text-message-renderer[author-type=owner] #author-photo::before {
+    position: absolute;
+    top: -16px;
+    left: -18px;
+    content: "";
+    display: block;
+    height: 118%;
+    width: 151%;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/房管O1CN010rzAco20i0STKFvkj_!!2212481236882.png) no-repeat;
+    background-size: 105% 105%
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #author-photo img,
+yt-live-chat-text-message-renderer[author-type=owner] #author-photo img {
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 50% !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #image-and-message img,
+yt-live-chat-text-message-renderer[author-type=owner] #image-and-message img {
+    display: inline-block !important;
+    margin: 5px 3px -5px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #card,
+yt-live-chat-text-message-renderer[author-type=concern] #card {
+    width: 100% !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #content,
+yt-live-chat-text-message-renderer[author-type=concern] #content {
+    position: relative !important;
+    top: 0;
+    width: 100% !important;
+    padding: 0 0 0 25px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #author-name,
+yt-live-chat-text-message-renderer[author-type=concern] #author-name {
+    line-height: 16px !important;
+    font-size: 16px !important;
+    font-family: "台灣圓體" !important;
+    font-weight: 700 !important;
+    color: #f0cc7f !important;
+    background-color: transparent !important;
+    padding: 1px 5px 1px 2px !important;
+    position: relative !important;
+    bottom: -1px;
+    border-radius: 0 !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #author-name::before,
+yt-live-chat-text-message-renderer[author-type=concern] #author-name::before {
+    position: absolute;
+    top: 2px;
+    right: -12px;
+    display: block;
+    content: "";
+    width: 14px;
+    height: 16px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/房管O1CN01NcbkeU20i0SX2e3kr_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #image-and-message,
+yt-live-chat-text-message-renderer[author-type=concern] #image-and-message {
+    border: 5px solid #fff !important;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 7px 3px #fff;
+    margin: 5px 5px 13px !important;
+    position: relative !important;
+    padding: 0 10px 0 3px !important;
+    width: 100% !important;
+    display: inline-block !important;
+    box-sizing: border-box !important;
+    overflow: visible !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #content::before,
+yt-live-chat-text-message-renderer[author-type=concern] #content::before {
+    position: absolute;
+    top: 9px;
+    left: 14px;
+    display: block;
+    content: "";
+    width: 62px;
+    height: 70px;
+    z-index: 5;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/房管O1CN01xiyYJo20i0SLXj0EU_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #image-and-message::before,
+yt-live-chat-text-message-renderer[author-type=concern] #image-and-message::before {
+    position: absolute;
+    bottom: -31px;
+    left: -27px;
+    display: block;
+    content: "";
+    width: 44px;
+    height: 50px;
+    z-index: 6;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/房管O1CN01Frt9do20i0SUVAQJb_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #content::after,
+yt-live-chat-text-message-renderer[author-type=concern] #content::after {
+    position: absolute;
+    top: 2px;
+    right: -25px;
+    display: block;
+    content: "";
+    width: 95px;
+    height: 70px;
+    z-index: 5;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/房管O1CN01pJyRBv20i0SJzVyXO_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #image-and-message::after,
+yt-live-chat-text-message-renderer[author-type=concern] #image-and-message::after {
+    position: absolute;
+    bottom: -43px;
+    right: -25px;
+    display: block;
+    content: "";
+    width: 55px;
+    height: 50px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/房管O1CN01wdAUHM20i0SLXiKfP_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #message,
+yt-live-chat-text-message-renderer[author-type=concern] #message {
+    line-height: 24px !important;
+    font-size: 24px !important;
+    font-family: "台灣圓體" !important;
+    font-weight: 700 !important;
+    color: #f0cc7f !important;
+    text-align: justify !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #author-photo,
+yt-live-chat-text-message-renderer[author-type=concern] #author-photo {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    height: 65px !important;
+    width: 65px !important;
+    overflow: visible !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #author-photo::before,
+yt-live-chat-text-message-renderer[author-type=concern] #author-photo::before {
+    position: absolute;
+    top: -16px;
+    left: -18px;
+    content: "";
+    display: block;
+    height: 118%;
+    width: 151%;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/房管O1CN010rzAco20i0STKFvkj_!!2212481236882.png) no-repeat;
+    background-size: 105% 105%
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] yt-img-shadow img,
+yt-live-chat-text-message-renderer[author-type=comein] #author-photo img,
+yt-live-chat-text-message-renderer[author-type=concern] #author-photo img {
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 50% !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #image-and-message img,
+yt-live-chat-text-message-renderer[author-type=concern] #image-and-message img {
+    display: inline-block !important;
+    margin: 5px 3px -5px !important
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] {
+    margin: 30px 2px 20px 0 !important;
+    overflow: visible !important;
+    padding: 4px 20px 4px 120px !important
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] #card {
+    position: relative !important;
+    overflow: visible !important
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] #header {
+    background-color: #fff !important;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 3px #fff;
+    position: relative !important;
+    padding: 4px 16px 2px !important
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] #card::before {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    display: block;
+    content: "";
+    width: 150px;
+    height: 50px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/上O1CN01QckKLU20i0SQ3FMH4_!!2212481236882.png) no-repeat;
+    background-size: 100%;
+    z-index: 100 !important
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] #header::before {
+    position: absolute;
+    left: -12px;
+    top: -17px;
+    display: block;
+    content: "";
+    width: 90px;
+    height: 80px;
+    background-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/上O1CN01wHFUMa20i0SWItxgP_!!2212481236882.png), url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/上O1CN01BmVUw920i0STKGGW7_!!2212481236882.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, left 12px bottom 6px;
+    background-size: 100%, 43%
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] #header::after {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    display: block;
+    content: "";
+    width: 68px;
+    height: 60px;
+    background-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/上O1CN01757QK220i0SQSdjRF_!!2212481236882.png), url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/上O1CN01HopvPZ20i0SWIvIqp_!!2212481236882.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right top, right bottom 1px;
+    background-size: 100%, 60%
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] yt-img-shadow {
+    height: 40px !important;
+    width: 40px !important;
+    overflow: visible !important;
+    margin: 0 !important;
+    position: absolute !important;
+    top: 10px;
+    left: -58px
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] yt-img-shadow::before {
+    position: absolute;
+    top: -21px;
+    left: -58px;
+    content: "";
+    display: block;
+    height: 64px;
+    width: 100px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/上O1CN01BVThRb20i0SP5SCER_!!2212481236882.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] #header-content-primary-column {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 7px 0 15px 5px !important;
+    position: relative !important
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] #author-name {
+    font-family: "台灣圓體" !important;
+    font-weight: 700 !important;
+    color: #f2a3cd !important;
+    background-color: transparent !important;
+    padding: 1px 148px 1px 5px !important;
+    font-size: 20px !important;
+    line-height: 20px !important;
+    position: relative !important;
+    top: 12px;
+    left: 2px
+}
+
+yt-live-chat-membership-item-renderer[show-only-header=""] #author-name::before {
+    position: absolute;
+    top: -11px;
+    left: -4px;
+    content: "";
+    display: block;
+    height: 50px;
+    width: 75px;
+    background: url(static/pandamiao/img.alicdn.com/imgextra/i4/2212481236882/O1CN01DUiDpY20i0SQSeXLi_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+#chat-badges,
+#chat-badges yt-icon,
+#medal-card,
+yt-live-chat-membership-item-renderer[show-only-header=""] #header-subtext,
+yt-live-chat-paid-message-renderer[show-only-header=true] yt-img-shadow {
+    display: none !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] {
+    padding: 4px 12px !important;
+    margin: 20px 50px 25px 40px !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true]>#card {
+    padding: 15px 0 !important;
+    background: url(static/pandamiao/img.alicdn.com/imgextra/i3/2212481236882/O1CN0168vwCG20i0SVAavDY_!!2212481236882.png) no-repeat !important;
+    background-size: 100% 100% !important;
+    position: relative !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true]>#card::before {
+    position: absolute;
+    top: -13px;
+    left: -40px;
+    display: block;
+    content: "";
+    width: 90px;
+    height: 58px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/免O1CN01xoxxHK20i0SQSdfJI_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true]>#card::after {
+    position: absolute;
+    bottom: -3px;
+    right: -40px;
+    display: block;
+    content: "";
+    width: 130px;
+    height: 45px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/免O1CN01Iarhky20i0SVAZNZn_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #header {
+    background: 0 0 !important;
+    padding: 0 45px 0 35px !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #header-content-primary-column {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-direction: row !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #author-name {
+    line-height: 20px !important;
+    position: relative !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #author-name,
+yt-live-chat-paid-message-renderer[show-only-header=true] #purchase-amount {
+    font-family: "台灣圓體" !important;
+    font-weight: 700 !important;
+    color: #e5aab2 !important;
+    font-size: 20px !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) {
+    position: relative;
+    margin: 35px 105px 20px 25px !important;
+    padding: 0 0 0 75px !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header])::before {
+    position: absolute;
+    top: -15px;
+    left: 76px;
+    display: block;
+    content: "";
+    width: 70px;
+    height: 40px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/礼O1CN01dmWkfF20i0SMBTub3_!!2212481236882.png) no-repeat;
+    background-size: 100%;
+    z-index: 99 !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header])::after {
+    position: absolute;
+    bottom: -11px;
+    left: 77px;
+    display: block;
+    content: "";
+    width: 50px;
+    height: 35px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/礼O1CN01gWHMlN20i0SP5VDPA_!!2212481236882.png) no-repeat;
+    background-size: 100%;
+    z-index: 99 !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header])>#card {
+    width: 100% !important;
+    background: 0 0 !important;
+    overflow: visible !important;
+    position: relative !important;
+    border: 8px solid #eee !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/普通-236883.png) 20 fill !important;
+    padding-left: 0 !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header])>#card::before {
+    position: absolute;
+    top: -33px;
+    right: -70px;
+    display: block;
+    content: "";
+    width: 153px;
+    height: 80px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/礼O1CN01mWzgHI20i0SP5Uwlb_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header])>#card::after {
+    position: absolute;
+    bottom: -16px;
+    right: -15px;
+    display: block;
+    content: "";
+    width: 83px;
+    height: 40px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/礼O1CN012FgDeE20i0SOT40cd_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #header {
+    overflow: visible !important;
+    position: relative !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: transparent !important;
+    min-height: 2px !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-photo {
+    position: absolute !important;
+    top: -30px;
+    left: -88px;
+    width: 65px !important;
+    height: 65px !important;
+    margin: 0 !important;
+    overflow: visible !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-photo::before {
+    position: absolute;
+    top: -10px;
+    left: -19px;
+    display: block;
+    content: "";
+    width: 147%;
+    height: 150%;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/礼O1CN01OeaqEY20i0SMBTVeI_!!2212481236882.png) no-repeat;
+    background-size: 105%
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-photo img {
+    border-radius: 50% !important;
+    width: 100% !important;
+    height: 100% !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #header-content-primary-column {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-name {
+    font-size: 16px !important;
+    line-height: 16px !important;
+    font-family: "台灣圓體" !important;
+    font-weight: 700 !important;
+    color: #a0c0fb !important;
+    background-color: transparent !important;
+    position: absolute !important;
+    top: -23px;
+    left: 65px;
+    padding: 1px 5px !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-name::before {
+    position: absolute;
+    top: 2px;
+    right: -15px;
+    display: block;
+    content: "";
+    width: 16px;
+    height: 21px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B04手绘猫团团/礼O1CN01cz4Jrf20i0SSfgGYd_!!2212481236882.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #purchase-amount {
+    display: none !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #content {
+    padding: 0 45px 0 0 !important;
+    position: relative !important;
+    background-color: transparent !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #message {
+    font-size: 22px !important;
+    line-height: 24px !important;
+    font-family: "台灣圓體" !important;
+    font-weight: 700 !important;
+    color: #a0c0fb !important;
+    background-color: transparent !important;
+    text-align: justify !important;
+    padding: 2px 15px !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #message:empty {
+    display: block !important;
+    min-height: 24px !important
+}
+
+body,
+yt-live-chat-renderer,
+yt-live-chat-ticker-renderer {
+    background-color: transparent !important
+}
+
+::-webkit-scrollbar {
+    display: none !important
+}

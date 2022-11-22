@@ -11,7 +11,7 @@
         <i class="el-icon-s-home"></i>{{ $t('sidebar.home') }}
       </el-menu-item>
       <el-menu-item :index="$router.resolve({ name: 'stylegen' }).href">
-        <i class="el-icon-brush"></i>{{ $t('sidebar.stylegen') }}
+        <i class="el-icon-brush"></i>样式选择器
       </el-menu-item>
       <a href="https://www.yuque.com/doodle-irifi/ueaigm/laogg2" target="_blank">
         <el-menu-item>
@@ -20,22 +20,14 @@
       </a>
       <a href="https://github.com/DoodleBears/blivechat" target="_blank">
         <el-menu-item>
-          <i class="el-icon-share"></i>{{ $t('sidebar.projectAddress') }}
+          <i class="el-icon-share"></i>只熊老师的项目地址
         </el-menu-item>
       </a>
-      <a href="http://link.bilibili.com/ctool/vtuber" target="_blank">
+      <a href="https://github.com/LaughsMan/blivechat_hxcmLeak" target="_blank">
         <el-menu-item>
-          <i class="el-icon-link"></i>{{ $t('sidebar.giftRecordOfficial') }}
+          <i class="el-icon-share"></i>破解版的项目地址
         </el-menu-item>
       </a>
-      <el-submenu index="null">
-        <template slot="title">
-          <i class="el-icon-chat-line-square"></i>Language
-        </template>
-        <el-menu-item v-for="locale in LOCALES" :key="locale.locale" @click="onSelectLanguage(locale.locale)">
-          <template>{{ locale.name }}</template>
-        </el-menu-item>
-      </el-submenu>
     </el-menu>
   </el-scrollbar>
 </template>

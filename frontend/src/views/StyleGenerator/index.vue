@@ -1,6 +1,6 @@
 <template>
   <el-row :gutter="20">
-    <el-col :sm="24" :md="16">
+    <el-col :sm="32" :md="16">
       <el-tabs v-model="activeTab">
         <el-tab-pane :label="$t('hxcmLeak')" name="hxcm">
           <hxcm ref="hxcm" v-model="subComponentResults.hxcm"></hxcm>
@@ -27,7 +27,7 @@
       </el-form>
     </el-col>
 
-    <el-col :sm="24" :md="8">
+    <el-col :sm="16" :md="8">
       <div :style="{ position: 'relative', top: `${exampleTop}px` }">
         <el-form inline style="line-height: 40px">
           <el-form-item :label="$t('stylegen.playAnimation')" style="margin: 0">

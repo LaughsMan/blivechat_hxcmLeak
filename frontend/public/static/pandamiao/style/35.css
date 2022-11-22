@@ -1,0 +1,1771 @@
+@font-face {
+    font-family: '思源黑体';
+    src: url(static/pandamiao/lfcss.pandamiao.com/ZT/SOURCEHANSANSCN-BOLD.OTF) format('opentype')
+}
+
+yt-live-chat-text-message-renderer #image-and-message .emoji {
+    width: 100px !important;
+    height: 100 !important
+}
+
+yt-live-chat-text-message-renderer #image-and-message .image {
+    display: inline-block !important;
+    margin: 0 5px -6px !important
+}
+
+body,
+yt-live-chat-renderer {
+    background-color: transparent !important
+}
+
+::-webkit-scrollbar {
+    display: none !important
+}
+
+#chat-badges {
+    display: none !important
+}
+
+#chat-medal,
+#chat-medal #medal-card {
+    position: absolute;
+    z-index: 100;
+    width: 100
+}
+
+#chat-medal {
+    right: 0;
+    top: 0
+}
+
+#chat-medal #medal-card {
+    background: 0 0 !important;
+    border: 0 !important;
+    display: block;
+    overflow: visible
+}
+
+yt-live-chat-text-message-renderer[author-type=""],
+yt-live-chat-text-message-renderer[author-type=comein],
+yt-live-chat-text-message-renderer[author-type=concern],
+yt-live-chat-text-message-renderer[author-type=moderator],
+yt-live-chat-text-message-renderer[author-type=owner],
+yt-live-chat-text-message-renderer[privilegetype="1"],
+yt-live-chat-text-message-renderer[privilegetype="2"],
+yt-live-chat-text-message-renderer[privilegetype="3"] {
+    position: relative;
+    margin: 10px !important;
+    padding: 10px 0 !important;
+    overflow: visible !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #card {
+    width: 100 !important;
+    position: relative !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #content {
+    position: relative !important;
+    width: 100 !important;
+    padding: 0 !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] yt-live-chat-author-chip,
+yt-live-chat-text-message-renderer[author-type=moderator] yt-live-chat-author-chip,
+yt-live-chat-text-message-renderer[author-type=owner] yt-live-chat-author-chip,
+yt-live-chat-text-message-renderer[privilegetype="1"] yt-live-chat-author-chip,
+yt-live-chat-text-message-renderer[privilegetype="2"] yt-live-chat-author-chip,
+yt-live-chat-text-message-renderer[privilegetype="3"] yt-live-chat-author-chip {
+    margin: 0 !important;
+    position: static;
+    z-index: 25
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-name {
+    z-index: 100;
+    position: absolute;
+    top: 33px;
+    left: 9px;
+    line-height: 1 !important;
+    font-size: 18px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    padding: 0 0 0 8px !important;
+    border-radius: 9px !important;
+    border-width: 5px 20px 5px 5px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/弹幕-普通_0000s_0000s_0001_矩形-2.png) 5 20 5 5 fill !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #medal-name {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    z-index: 100;
+    color: #6b6b70;
+    background: #fff;
+    border-radius: 10px;
+    padding: 4px 10px;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    font-family: "思源黑体" !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #medal-level {
+    position: absolute;
+    right: 26px;
+    top: 60px;
+    background: 0 0 !important;
+    letter-spacing: 3px;
+    font-style: italic;
+    font-weight: 700 !important;
+    font-size: 85px !important;
+    font-family: "思源黑体" !important;
+    color: #969696;
+    -webkit-text-stroke: 2px #fff
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #image-and-message {
+    width: 100% !important;
+    display: flex !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+    border-width: 50px 15px 15px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-image: url(static/pandamiao/hxcm-css.oss-cn-hangzhou.aliyuncs.com/DM/LF/B10简约·则/弹幕-普通_0000s_0005_底.png) 50 15 15 15 fill !important;
+    position: relative !important;
+    padding: 0 240px 10px 15px !important;
+    z-index: 10 !important;
+    min-height: 130px;
+    align-items: center
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #message {
+    line-height: 1.2 !important;
+    font-size: 28px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    text-shadow: 0 0 3px #000, 0 0 3px #000, 0 0 3px #000;
+    font-weight: 700 !important;
+    padding: 0 0 0 5px !important;
+    overflow: visible;
+    display: block;
+    align-self: center
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-photo {
+    position: absolute !important;
+    top: 35px !important;
+    right: 125px !important;
+    height: 92px !important;
+    width: 92px !important;
+    overflow: visible !important;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-photo::before {
+    position: absolute;
+    top: -14px;
+    left: -14px;
+    content: "";
+    display: block;
+    height: 120px;
+    width: 120px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/弹幕-普通_0000s_0000_头像.png) no-repeat;
+    background-size: 100%;
+    z-index: 99
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-photo img,
+yt-live-chat-text-message-renderer[author-type=comein] #author-photo img,
+yt-live-chat-text-message-renderer[author-type=concern] #author-photo img,
+yt-live-chat-text-message-renderer[author-type=moderator] #author-photo img,
+yt-live-chat-text-message-renderer[author-type=owner] #author-photo img,
+yt-live-chat-text-message-renderer[privilegetype="1"] #author-photo img,
+yt-live-chat-text-message-renderer[privilegetype="2"] #author-photo img,
+yt-live-chat-text-message-renderer[privilegetype="3"] #author-photo img,
+yt-live-chat-ticker-paid-message-item-renderer yt-img-shadow img {
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 50% !important
+}
+
+yt-live-chat-text-message-renderer[privilegetype="3"] #card {
+    width: 100% !important;
+    position: relative !important
+}
+
+yt-live-chat-text-message-renderer[privilegetype="3"] #content {
+    position: relative !important;
+    width: 100% !important;
+    padding: 0 !important
+}
+
+yt-live-chat-text-message-renderer[privilegetype="3"] #author-name {
+    z-index: 100;
+    position: absolute;
+    top: 33px;
+    left: 9px;
+    line-height: 1 !important;
+    font-size: 18px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    padding: 0 0 0 8px !important;
+    border-radius: 9px !important;
+    border-width: 5px 20px 5px 5px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/弹幕-舰长_0000s_0000s_0001_矩形-2.png) 5 20 5 5 fill !important
+}
+
+yt-live-chat-text-message-renderer[privilegetype="3"] #medal-name {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    z-index: 100;
+    color: #6b6b70;
+    background: #fff;
+    border-radius: 10px;
+    padding: 4px 10px;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    font-family: "思源黑体" !important
+}
+
+yt-live-chat-text-message-renderer[privilegetype="3"] #medal-level {
+    position: absolute;
+    right: 26px;
+    top: 60px;
+    background: 0 0 !important;
+    letter-spacing: 3px;
+    font-style: italic;
+    font-weight: 700 !important;
+    font-size: 85px !important;
+    font-family: "思源黑体" !important;
+    color: #6390e3;
+    -webkit-text-stroke: 2px #fff
+}
+
+yt-live-chat-text-message-renderer[privilegetype="3"] #image-and-message {
+    width: 100% !important;
+    display: flex !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+    border-width: 50px 15px 15px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/弹幕-舰长_0000s_0005_底.png) 50 15 15 15 fill !important;
+    position: relative !important;
+    padding: 0 240px 10px 15px !important;
+    z-index: 10 !important;
+    min-height: 130px;
+    align-items: center
+}
+
+yt-live-chat-text-message-renderer[privilegetype="3"] #message {
+    line-height: 1.2 !important;
+    font-size: 28px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    text-shadow: 0 0 3px #000, 0 0 3px #000, 0 0 3px #000;
+    font-weight: 700 !important;
+    padding: 0 0 0 5px !important;
+    overflow: visible;
+    display: block;
+    align-self: center
+}
+
+yt-live-chat-text-message-renderer[privilegetype="3"] #author-photo {
+    position: absolute !important;
+    top: 35px !important;
+    right: 125px !important;
+    height: 92px !important;
+    width: 92px !important;
+    overflow: visible !important;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #author-photo::before,
+yt-live-chat-text-message-renderer[author-type=owner] #author-photo::before,
+yt-live-chat-text-message-renderer[privilegetype="1"] #author-photo::before,
+yt-live-chat-text-message-renderer[privilegetype="2"] #author-photo::before,
+yt-live-chat-text-message-renderer[privilegetype="3"] #author-photo::before {
+    position: absolute;
+    top: -14px;
+    left: -14px;
+    content: "";
+    display: block;
+    height: 120px;
+    width: 120px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/弹幕-舰长_0000s_0000_头像.png) no-repeat;
+    background-size: 100%;
+    z-index: 99
+}
+
+yt-live-chat-text-message-renderer[privilegetype="2"] #card {
+    width: 100% !important;
+    position: relative !important
+}
+
+yt-live-chat-text-message-renderer[privilegetype="2"] #content {
+    position: relative !important;
+    width: 100% !important;
+    padding: 0 !important
+}
+
+yt-live-chat-text-message-renderer[privilegetype="2"] #author-name {
+    z-index: 100;
+    position: absolute;
+    top: 33px;
+    left: 9px;
+    line-height: 1 !important;
+    font-size: 18px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    padding: 0 0 0 8px !important;
+    border-radius: 9px !important;
+    border-width: 5px 20px 5px 5px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/弹幕-提督_0000s_0000s_0001_矩形-2.png) 5 20 5 5 fill !important
+}
+
+yt-live-chat-text-message-renderer[privilegetype="2"] #medal-name {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    z-index: 100;
+    color: #6b6b70;
+    background: #fff;
+    border-radius: 10px;
+    padding: 4px 10px;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    font-family: "思源黑体" !important
+}
+
+yt-live-chat-text-message-renderer[privilegetype="2"] #medal-level {
+    position: absolute;
+    right: 26px;
+    top: 60px;
+    background: 0 0 !important;
+    letter-spacing: 3px;
+    font-style: italic;
+    font-weight: 700 !important;
+    font-size: 85px !important;
+    font-family: "思源黑体" !important;
+    color: #896ccf;
+    -webkit-text-stroke: 2px #fff
+}
+
+yt-live-chat-text-message-renderer[privilegetype="2"] #image-and-message {
+    width: 100% !important;
+    display: flex !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+    border-width: 50px 15px 15px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/弹幕-提督_0000s_0005_底.png) 50 15 15 15 fill !important;
+    position: relative !important;
+    padding: 0 240px 10px 15px !important;
+    z-index: 10 !important;
+    min-height: 130px;
+    align-items: center
+}
+
+yt-live-chat-text-message-renderer[privilegetype="2"] #message {
+    line-height: 1.2 !important;
+    font-size: 28px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    text-shadow: 0 0 3px #000, 0 0 3px #000, 0 0 3px #000;
+    font-weight: 700 !important;
+    padding: 0 0 0 5px !important;
+    overflow: visible;
+    display: block;
+    align-self: center
+}
+
+yt-live-chat-text-message-renderer[privilegetype="2"] #author-photo {
+    position: absolute !important;
+    top: 35px !important;
+    right: 125px !important;
+    height: 92px !important;
+    width: 92px !important;
+    overflow: visible !important;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[privilegetype="1"] #card {
+    width: 100% !important;
+    position: relative !important
+}
+
+yt-live-chat-text-message-renderer[privilegetype="1"] #content {
+    position: relative !important;
+    width: 100% !important;
+    padding: 0 !important
+}
+
+yt-live-chat-text-message-renderer[privilegetype="1"] #author-name {
+    z-index: 100;
+    position: absolute;
+    top: 33px;
+    left: 9px;
+    line-height: 1 !important;
+    font-size: 18px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    padding: 0 0 0 8px !important;
+    border-radius: 9px !important;
+    border-width: 5px 20px 5px 5px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/弹幕-总督_0000s_0000s_0001_矩形-2.png) 5 20 5 5 fill !important
+}
+
+yt-live-chat-text-message-renderer[privilegetype="1"] #medal-name {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    z-index: 100;
+    color: #6b6b70;
+    background: #fff;
+    border-radius: 10px;
+    padding: 4px 10px;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    font-family: "思源黑体" !important
+}
+
+yt-live-chat-text-message-renderer[privilegetype="1"] #medal-level {
+    position: absolute;
+    right: 26px;
+    top: 60px;
+    background: 0 0 !important;
+    letter-spacing: 3px;
+    font-style: italic;
+    font-weight: 700 !important;
+    font-size: 85px !important;
+    font-family: "思源黑体" !important;
+    color: #da6464;
+    -webkit-text-stroke: 2px #fff
+}
+
+yt-live-chat-text-message-renderer[privilegetype="1"] #image-and-message {
+    width: 100% !important;
+    display: flex !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+    border-width: 50px 15px 15px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/弹幕-总督_0000s_0005_底.png) 50 15 15 15 fill !important;
+    position: relative !important;
+    padding: 0 240px 10px 15px !important;
+    z-index: 10 !important;
+    min-height: 130px;
+    align-items: center
+}
+
+yt-live-chat-text-message-renderer[privilegetype="1"] #message {
+    line-height: 1.2 !important;
+    font-size: 28px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    text-shadow: 0 0 3px #000, 0 0 3px #000, 0 0 3px #000;
+    font-weight: 700 !important;
+    padding: 0 0 0 5px !important;
+    overflow: visible;
+    display: block;
+    align-self: center
+}
+
+yt-live-chat-text-message-renderer[privilegetype="1"] #author-photo {
+    position: absolute !important;
+    top: 35px !important;
+    right: 125px !important;
+    height: 92px !important;
+    width: 92px !important;
+    overflow: visible !important;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #card,
+yt-live-chat-text-message-renderer[author-type=owner] #card {
+    width: 100% !important;
+    position: relative !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #content,
+yt-live-chat-text-message-renderer[author-type=owner] #content {
+    position: relative !important;
+    width: 100% !important;
+    padding: 0 !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #author-name,
+yt-live-chat-text-message-renderer[author-type=owner] #author-name {
+    background: 0 0 !important;
+    z-index: 100;
+    position: absolute;
+    top: 33px;
+    left: 9px;
+    line-height: 1 !important;
+    font-size: 18px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    padding: 0 0 0 8px !important;
+    border-radius: 9px !important;
+    border-width: 5px 20px 5px 5px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/弹幕-房管_0000s_0000s_0001_矩形-2.png) 5 20 5 5 fill !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #medal-name,
+yt-live-chat-text-message-renderer[author-type=owner] #medal-name {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    z-index: 100;
+    color: #6b6b70;
+    background: #fff;
+    border-radius: 10px;
+    padding: 4px 10px;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    font-family: "思源黑体" !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #medal-level,
+yt-live-chat-text-message-renderer[author-type=owner] #medal-level {
+    position: absolute;
+    right: 26px;
+    top: 60px;
+    background: 0 0 !important;
+    letter-spacing: 3px;
+    font-style: italic;
+    font-weight: 700 !important;
+    font-size: 85px !important;
+    font-family: "思源黑体" !important;
+    color: #d8ad51;
+    -webkit-text-stroke: 2px #fff
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #image-and-message,
+yt-live-chat-text-message-renderer[author-type=owner] #image-and-message {
+    width: 100% !important;
+    display: flex !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+    border-width: 50px 15px 15px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/弹幕-房管_0000s_0005_底.png) 50 15 15 15 fill !important;
+    position: relative !important;
+    padding: 0 240px 10px 15px !important;
+    z-index: 10 !important;
+    min-height: 130px;
+    align-items: center
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #message,
+yt-live-chat-text-message-renderer[author-type=owner] #message {
+    line-height: 1.2 !important;
+    font-size: 28px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    text-shadow: 0 0 3px #000, 0 0 3px #000, 0 0 3px #000;
+    font-weight: 700 !important;
+    padding: 0 0 0 5px !important;
+    overflow: visible;
+    display: block;
+    align-self: center
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #author-photo,
+yt-live-chat-text-message-renderer[author-type=owner] #author-photo {
+    position: absolute !important;
+    top: 35px !important;
+    right: 125px !important;
+    height: 92px !important;
+    width: 92px !important;
+    overflow: visible !important;
+    z-index: 120
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="1"],
+yt-live-chat-membership-item-renderer[privilegetype="2"],
+yt-live-chat-membership-item-renderer[privilegetype="3"],
+yt-live-chat-paid-message-renderer[show-only-header=true] {
+    margin: 20px 0 !important;
+    overflow: visible !important;
+    padding: 10px 10px 0 !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="3"] #card {
+    position: relative !important;
+    overflow: visible !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="1"] #card::before,
+yt-live-chat-membership-item-renderer[privilegetype="2"] #card::before,
+yt-live-chat-membership-item-renderer[privilegetype="3"] #card::before {
+    position: absolute;
+    top: 67px;
+    left: calc(50% + 20px);
+    transform: translateX(-50%);
+    display: block;
+    content: "";
+    width: 250px;
+    height: 39px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/上舰长_0000s_0000_现已加入大航海..png) no-repeat;
+    background-size: 100%;
+    z-index: 50
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="3"] #header {
+    background-color: transparent !important;
+    position: relative !important;
+    height: 80px;
+    border: 20px solid transparent !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/上舰长_0000s_0002_NEW-MEMBER.png) 20 fill !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="3"] #header-content {
+    position: relative !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="1"] yt-img-shadow,
+yt-live-chat-membership-item-renderer[privilegetype="2"] yt-img-shadow,
+yt-live-chat-membership-item-renderer[privilegetype="3"] yt-img-shadow {
+    position: absolute !important;
+    top: 5px;
+    left: 10px;
+    height: 80px !important;
+    width: 80px !important;
+    overflow: visible !important;
+    z-index: 100 !important;
+    border: 4px solid #fff;
+    border-radius: 0 !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="1"] yt-img-shadow img,
+yt-live-chat-membership-item-renderer[privilegetype="2"] yt-img-shadow img,
+yt-live-chat-membership-item-renderer[privilegetype="3"] yt-img-shadow img {
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 0 !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="3"] #header-content-primary-column {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 0 !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="1"] yt-live-chat-author-chip,
+yt-live-chat-membership-item-renderer[privilegetype="2"] yt-live-chat-author-chip,
+yt-live-chat-membership-item-renderer[privilegetype="3"] yt-live-chat-author-chip {
+    position: absolute !important;
+    top: -48px;
+    left: calc(50% + 20px);
+    transform: translateX(-50%)
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="3"] #author-name {
+    line-height: 22px !important;
+    font-size: 22px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    padding: 2px 5px !important;
+    border-radius: 0 !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="3"] #header-subtext {
+    display: none !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="2"] #card {
+    position: relative !important;
+    overflow: visible !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="2"] #header {
+    background-color: transparent !important;
+    position: relative !important;
+    height: 80px;
+    border: 20px solid transparent !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/上提督_0002_矩形-7.png) 20 fill !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="2"] #header-content {
+    position: relative !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="2"] #header-content-primary-column {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 0 !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="2"] #author-name {
+    line-height: 22px !important;
+    font-size: 22px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    padding: 2px 5px !important;
+    border-radius: 0 !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="2"] #header-subtext {
+    display: none !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="1"] #card {
+    position: relative !important;
+    overflow: visible !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="1"] #header {
+    background-color: transparent !important;
+    position: relative !important;
+    height: 80px;
+    border: 20px solid transparent !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/上总督_0002_矩形-7.png) 20 fill !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="1"] #header-content {
+    position: relative !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="1"] #header-content-primary-column {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 0 !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="1"] #author-name {
+    line-height: 22px !important;
+    font-size: 22px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    padding: 2px 5px !important;
+    border-radius: 0 !important
+}
+
+yt-live-chat-membership-item-renderer[privilegetype="1"] #header-subtext,
+yt-live-chat-paid-message-renderer[show-only-header=true] yt-img-shadow {
+    display: none !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #card {
+    height: 100px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/免费礼物_0000s_0003_图层-2.png) no-repeat !important;
+    background-size: 100% !important;
+    position: relative !important;
+    box-shadow: none !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #header {
+    background: 0 0 !important;
+    padding: 3px 16px !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #header-content-primary-column {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-direction: row !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #author-name {
+    position: absolute;
+    left: 9px;
+    top: 24px;
+    line-height: 1 !important;
+    font-size: 26px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    background: #8f8f8f;
+    padding: 4px 10px 4px 25px
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #purchase-amount {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    line-height: 1 !important;
+    font-size: 26px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    padding: 2px 5px !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"]:not([show-only-header]),
+yt-live-chat-paid-message-renderer[price-level="0.1"]:not([show-only-header]),
+yt-live-chat-paid-message-renderer[price-level="1"]:not([show-only-header]),
+yt-live-chat-paid-message-renderer[price-level="100"]:not([show-only-header]),
+yt-live-chat-paid-message-renderer[price-level="1000"]:not([show-only-header]),
+yt-live-chat-paid-message-renderer[price-level="30"]:not([show-only-header]),
+yt-live-chat-paid-message-renderer[price-level="50"]:not([show-only-header]) {
+    margin: 40px 7px !important;
+    overflow: hidden !important;
+    padding: 0 10px !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"]:not([show-only-header]) #card,
+yt-live-chat-paid-message-renderer[price-level="0.1"]:not([show-only-header]) #card {
+    background: 0 0 !important;
+    box-shadow: none !important;
+    border-width: 45px 15px 10px !important;
+    border-style: solid !important;
+    border-color: #eee !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/0-1_0000s_0003_底 - 副本.png) 45 15 10 15 fill !important;
+    position: relative !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"]:not([show-only-header]) #card::before,
+yt-live-chat-paid-message-renderer[price-level="0.1"]:not([show-only-header]) #card::before {
+    position: absolute;
+    top: calc(50% - 0px);
+    left: 10px;
+    transform: translateY(-50%);
+    display: block;
+    content: "";
+    width: 180px;
+    height: 200px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/0-1_0000s_0000s_0000_GIFT.png) no-repeat;
+    background-size: 100%;
+    z-index: 20
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"]:not([show-only-header]) #header,
+yt-live-chat-paid-message-renderer[price-level="0.1"]:not([show-only-header]) #header {
+    padding: 0 !important;
+    min-height: 0 !important;
+    background-color: transparent !important;
+    position: static
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"]:not([show-only-header]) #author-photo,
+yt-live-chat-paid-message-renderer[price-level="0.1"]:not([show-only-header]) #author-photo {
+    overflow: visible !important;
+    position: absolute !important;
+    top: calc(50% - 16px);
+    left: 59px;
+    transform: translateY(-50%);
+    width: 80px !important;
+    height: 80px !important;
+    z-index: 20 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"]:not([show-only-header]) #author-photo::before,
+yt-live-chat-paid-message-renderer[price-level="0.1"]:not([show-only-header]) #author-photo::before {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    display: block;
+    content: "";
+    height: 100px;
+    width: 80px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/0-1_0000s_0000s_0000.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"]:not([show-only-header]) #author-photo img,
+yt-live-chat-paid-message-renderer[price-level="0.1"]:not([show-only-header]) #author-photo img,
+yt-live-chat-paid-message-renderer[price-level="1"]:not([show-only-header]) #author-photo img,
+yt-live-chat-paid-message-renderer[price-level="100"]:not([show-only-header]) #author-photo img,
+yt-live-chat-paid-message-renderer[price-level="1000"]:not([show-only-header]) #author-photo img,
+yt-live-chat-paid-message-renderer[price-level="30"]:not([show-only-header]) #author-photo img,
+yt-live-chat-paid-message-renderer[price-level="50"]:not([show-only-header]) #author-photo img {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 50% !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"]:not([show-only-header]) #header-content-primary-column,
+yt-live-chat-paid-message-renderer[price-level="0.1"]:not([show-only-header]) #header-content-primary-column {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-direction: row !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"]:not([show-only-header]) #author-name,
+yt-live-chat-paid-message-renderer[price-level="0.1"]:not([show-only-header]) #author-name {
+    white-space: nowrap;
+    line-height: 1 !important;
+    font-size: 22px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    text-shadow: 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8;
+    font-weight: 700 !important;
+    position: absolute !important;
+    top: -39px !important;
+    left: calc(50% + 80px);
+    transform: translate(-50%);
+    z-index: 20 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"]:not([show-only-header]) #author-name::before,
+yt-live-chat-paid-message-renderer[price-level="0.1"]:not([show-only-header]) #author-name::before {
+    position: absolute;
+    top: 3px;
+    left: -75px;
+    content: "";
+    display: block;
+    height: 100px;
+    width: 65px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/0-1_0000s_0002_GIVER.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"]:not([show-only-header]) #purchase-amount,
+yt-live-chat-paid-message-renderer[price-level="0.1"]:not([show-only-header]) #purchase-amount {
+    line-height: 15px !important;
+    font-size: 15px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    position: absolute !important;
+    top: -35px !important;
+    right: 10px;
+    z-index: 20 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"]:not([show-only-header]) #content,
+yt-live-chat-paid-message-renderer[price-level="0.1"]:not([show-only-header]) #content {
+    padding: 5px 40px 10px 200px !important;
+    background-color: transparent !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"]:not([show-only-header]) #message,
+yt-live-chat-paid-message-renderer[price-level="0.1"]:not([show-only-header]) #message {
+    text-align: center;
+    line-height: 1.2 !important;
+    font-size: 28px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    text-shadow: 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8, 0 0 2px #6686a8;
+    font-weight: 700 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="0"]:not([show-only-header]) #message:empty,
+yt-live-chat-paid-message-renderer[price-level="0.1"]:not([show-only-header]) #message:empty,
+yt-live-chat-paid-message-renderer[price-level="1"]:not([show-only-header]) #message:empty,
+yt-live-chat-paid-message-renderer[price-level="100"]:not([show-only-header]) #message:empty,
+yt-live-chat-paid-message-renderer[price-level="1000"]:not([show-only-header]) #message:empty,
+yt-live-chat-paid-message-renderer[price-level="30"]:not([show-only-header]) #message:empty,
+yt-live-chat-paid-message-renderer[price-level="50"]:not([show-only-header]) #message:empty {
+    display: block !important;
+    min-height: 35px !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="1"]:not([show-only-header]) #card {
+    background: 0 0 !important;
+    box-shadow: none !important;
+    border-width: 45px 15px 10px !important;
+    border-style: solid !important;
+    border-color: #eee !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/1-30_0000s_0003_底.png) 45 15 10 15 fill !important;
+    position: relative !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="1"]:not([show-only-header]) #card::before {
+    position: absolute;
+    top: calc(50% - 0px);
+    left: 10px;
+    transform: translateY(-50%);
+    display: block;
+    content: "";
+    width: 180px;
+    height: 200px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/1-30_0000s_0000s_0001_GIFT.png) no-repeat;
+    background-size: 100%;
+    z-index: 20
+}
+
+yt-live-chat-paid-message-renderer[price-level="1"]:not([show-only-header]) #header {
+    padding: 0 !important;
+    min-height: 0 !important;
+    background-color: transparent !important;
+    position: static
+}
+
+yt-live-chat-paid-message-renderer[price-level="1"]:not([show-only-header]) #author-photo {
+    overflow: visible !important;
+    position: absolute !important;
+    top: calc(50% - 16px);
+    left: 59px;
+    transform: translateY(-50%);
+    width: 80px !important;
+    height: 80px !important;
+    z-index: 20 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="1"]:not([show-only-header]) #author-photo::before {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    display: block;
+    content: "";
+    height: 100px;
+    width: 80px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/0-1_0000s_0000s_0000.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-paid-message-renderer[price-level="1"]:not([show-only-header]) #header-content-primary-column {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-direction: row !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="1"]:not([show-only-header]) #author-name {
+    white-space: nowrap;
+    line-height: 1 !important;
+    font-size: 22px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    text-shadow: 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9;
+    font-weight: 700 !important;
+    position: absolute !important;
+    top: -39px !important;
+    left: calc(50% + 80px);
+    transform: translate(-50%);
+    z-index: 20 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="1"]:not([show-only-header]) #author-name::before {
+    position: absolute;
+    top: 3px;
+    left: -75px;
+    content: "";
+    display: block;
+    height: 100px;
+    width: 65px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/0-1_0000s_0002_GIVER.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-paid-message-renderer[price-level="1"]:not([show-only-header]) #purchase-amount {
+    line-height: 15px !important;
+    font-size: 15px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    position: absolute !important;
+    top: -35px !important;
+    right: 10px;
+    z-index: 20 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="1"]:not([show-only-header]) #content {
+    padding: 5px 40px 10px 200px !important;
+    background-color: transparent !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="1"]:not([show-only-header]) #message {
+    text-align: center;
+    line-height: 1.2 !important;
+    font-size: 28px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    text-shadow: 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9, 0 0 2px #325ca9;
+    font-weight: 700 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="30"]:not([show-only-header]) #card {
+    background: 0 0 !important;
+    box-shadow: none !important;
+    border-width: 45px 15px 10px !important;
+    border-style: solid !important;
+    border-color: #eee !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/30-50_0000s_0003_底.png) 45 15 10 15 fill !important;
+    position: relative !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="30"]:not([show-only-header]) #card::before {
+    position: absolute;
+    top: calc(50% - 0px);
+    left: 10px;
+    transform: translateY(-50%);
+    display: block;
+    content: "";
+    width: 180px;
+    height: 200px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/30-50_0000s_0000s_0001_GIFT.png) no-repeat;
+    background-size: 100%;
+    z-index: 20
+}
+
+yt-live-chat-paid-message-renderer[price-level="30"]:not([show-only-header]) #header {
+    padding: 0 !important;
+    min-height: 0 !important;
+    background-color: transparent !important;
+    position: static
+}
+
+yt-live-chat-paid-message-renderer[price-level="30"]:not([show-only-header]) #author-photo {
+    overflow: visible !important;
+    position: absolute !important;
+    top: calc(50% - 16px);
+    left: 59px;
+    transform: translateY(-50%);
+    width: 80px !important;
+    height: 80px !important;
+    z-index: 20 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="30"]:not([show-only-header]) #author-photo::before {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    display: block;
+    content: "";
+    height: 100px;
+    width: 80px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/0-1_0000s_0000s_0000.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-paid-message-renderer[price-level="30"]:not([show-only-header]) #header-content-primary-column {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-direction: row !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="30"]:not([show-only-header]) #author-name {
+    white-space: nowrap;
+    line-height: 1 !important;
+    font-size: 22px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    text-shadow: 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570;
+    font-weight: 700 !important;
+    position: absolute !important;
+    top: -39px !important;
+    left: calc(50% + 80px);
+    transform: translate(-50%);
+    z-index: 20 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="30"]:not([show-only-header]) #author-name::before {
+    position: absolute;
+    top: 3px;
+    left: -75px;
+    content: "";
+    display: block;
+    height: 100px;
+    width: 65px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/0-1_0000s_0002_GIVER.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-paid-message-renderer[price-level="30"]:not([show-only-header]) #purchase-amount {
+    line-height: 15px !important;
+    font-size: 15px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    position: absolute !important;
+    top: -35px !important;
+    right: 10px;
+    z-index: 20 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="30"]:not([show-only-header]) #content {
+    padding: 5px 40px 10px 200px !important;
+    background-color: transparent !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="30"]:not([show-only-header]) #message {
+    text-align: center;
+    line-height: 1.2 !important;
+    font-size: 28px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    text-shadow: 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570, 0 0 2px #4c9570;
+    font-weight: 700 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="50"]:not([show-only-header]) #card {
+    background: 0 0 !important;
+    box-shadow: none !important;
+    border-width: 45px 15px 10px !important;
+    border-style: solid !important;
+    border-color: #eee !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/50-100_0000s_0004_底.png) 45 15 10 15 fill !important;
+    position: relative !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="50"]:not([show-only-header]) #card::before {
+    position: absolute;
+    top: calc(50% - 0px);
+    left: 10px;
+    transform: translateY(-50%);
+    display: block;
+    content: "";
+    width: 180px;
+    height: 200px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/50-100_0000s_0000s_0001_GIFT.png) no-repeat;
+    background-size: 100%;
+    z-index: 20
+}
+
+yt-live-chat-paid-message-renderer[price-level="50"]:not([show-only-header]) #header {
+    padding: 0 !important;
+    min-height: 0 !important;
+    background-color: transparent !important;
+    position: static
+}
+
+yt-live-chat-paid-message-renderer[price-level="50"]:not([show-only-header]) #author-photo {
+    overflow: visible !important;
+    position: absolute !important;
+    top: calc(50% - 16px);
+    left: 59px;
+    transform: translateY(-50%);
+    width: 80px !important;
+    height: 80px !important;
+    z-index: 20 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="50"]:not([show-only-header]) #author-photo::before {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    display: block;
+    content: "";
+    height: 100px;
+    width: 80px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/0-1_0000s_0000s_0000.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-paid-message-renderer[price-level="50"]:not([show-only-header]) #header-content-primary-column {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-direction: row !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="50"]:not([show-only-header]) #author-name {
+    white-space: nowrap;
+    line-height: 1 !important;
+    font-size: 22px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    text-shadow: 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f;
+    font-weight: 700 !important;
+    position: absolute !important;
+    top: -39px !important;
+    left: calc(50% + 80px);
+    transform: translate(-50%);
+    z-index: 20 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="50"]:not([show-only-header]) #author-name::before {
+    position: absolute;
+    top: 3px;
+    left: -75px;
+    content: "";
+    display: block;
+    height: 100px;
+    width: 65px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/0-1_0000s_0002_GIVER.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-paid-message-renderer[price-level="50"]:not([show-only-header]) #purchase-amount {
+    line-height: 15px !important;
+    font-size: 15px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    position: absolute !important;
+    top: -35px !important;
+    right: 10px;
+    z-index: 20 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="50"]:not([show-only-header]) #content {
+    padding: 5px 40px 10px 200px !important;
+    background-color: transparent !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="50"]:not([show-only-header]) #message {
+    text-align: center;
+    line-height: 1.2 !important;
+    font-size: 28px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    text-shadow: 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f, 0 0 2px #f08e0f;
+    font-weight: 700 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="100"]:not([show-only-header]) #card {
+    background: 0 0 !important;
+    box-shadow: none !important;
+    border-width: 45px 15px 10px !important;
+    border-style: solid !important;
+    border-color: #eee !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/100-1000_0000s_0004_底.png) 45 15 10 15 fill !important;
+    position: relative !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="100"]:not([show-only-header]) #card::before {
+    position: absolute;
+    top: calc(50% - 0px);
+    left: 10px;
+    transform: translateY(-50%);
+    display: block;
+    content: "";
+    width: 180px;
+    height: 200px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/100-1000_0000s_0000s_0001_GIFT.png) no-repeat;
+    background-size: 100%;
+    z-index: 20
+}
+
+yt-live-chat-paid-message-renderer[price-level="100"]:not([show-only-header]) #header {
+    padding: 0 !important;
+    min-height: 0 !important;
+    background-color: transparent !important;
+    position: static
+}
+
+yt-live-chat-paid-message-renderer[price-level="100"]:not([show-only-header]) #author-photo {
+    overflow: visible !important;
+    position: absolute !important;
+    top: calc(50% - 16px);
+    left: 59px;
+    transform: translateY(-50%);
+    width: 80px !important;
+    height: 80px !important;
+    z-index: 20 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="100"]:not([show-only-header]) #author-photo::before {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    display: block;
+    content: "";
+    height: 100px;
+    width: 80px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/0-1_0000s_0000s_0000.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-paid-message-renderer[price-level="100"]:not([show-only-header]) #header-content-primary-column {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-direction: row !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="100"]:not([show-only-header]) #author-name {
+    white-space: nowrap;
+    line-height: 1 !important;
+    font-size: 22px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    text-shadow: 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000;
+    font-weight: 700 !important;
+    position: absolute !important;
+    top: -39px !important;
+    left: calc(50% + 80px);
+    transform: translate(-50%);
+    z-index: 20 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="100"]:not([show-only-header]) #author-name::before {
+    position: absolute;
+    top: 3px;
+    left: -75px;
+    content: "";
+    display: block;
+    height: 100px;
+    width: 65px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/0-1_0000s_0002_GIVER.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-paid-message-renderer[price-level="100"]:not([show-only-header]) #purchase-amount {
+    line-height: 15px !important;
+    font-size: 15px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    position: absolute !important;
+    top: -35px !important;
+    right: 10px;
+    z-index: 20 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="100"]:not([show-only-header]) #content {
+    padding: 5px 40px 10px 200px !important;
+    background-color: transparent !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="100"]:not([show-only-header]) #message {
+    text-align: center;
+    line-height: 1.2 !important;
+    font-size: 28px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    text-shadow: 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000, 0 0 2px #e75000;
+    font-weight: 700 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="1000"]:not([show-only-header]) #card {
+    background: 0 0 !important;
+    box-shadow: none !important;
+    border-width: 45px 15px 10px !important;
+    border-style: solid !important;
+    border-color: #eee !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/1000+_0000s_0004_底.png) 45 15 10 15 fill !important;
+    position: relative !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="1000"]:not([show-only-header]) #card::before {
+    position: absolute;
+    top: calc(50% - 0px);
+    left: 10px;
+    transform: translateY(-50%);
+    display: block;
+    content: "";
+    width: 180px;
+    height: 200px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/1000+_0000s_0000s_0001_GIFT.png) no-repeat;
+    background-size: 100%;
+    z-index: 20
+}
+
+yt-live-chat-paid-message-renderer[price-level="1000"]:not([show-only-header]) #header {
+    padding: 0 !important;
+    min-height: 0 !important;
+    background-color: transparent !important;
+    position: static
+}
+
+yt-live-chat-paid-message-renderer[price-level="1000"]:not([show-only-header]) #author-photo {
+    overflow: visible !important;
+    position: absolute !important;
+    top: calc(50% - 16px);
+    left: 59px;
+    transform: translateY(-50%);
+    width: 80px !important;
+    height: 80px !important;
+    z-index: 20 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="1000"]:not([show-only-header]) #author-photo::before {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    display: block;
+    content: "";
+    height: 100px;
+    width: 80px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/0-1_0000s_0000s_0000.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-paid-message-renderer[price-level="1000"]:not([show-only-header]) #header-content-primary-column {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-direction: row !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="1000"]:not([show-only-header]) #author-name {
+    white-space: nowrap;
+    line-height: 1 !important;
+    font-size: 22px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    text-shadow: 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000;
+    font-weight: 700 !important;
+    position: absolute !important;
+    top: -39px !important;
+    left: calc(50% + 80px);
+    transform: translate(-50%);
+    z-index: 20 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="1000"]:not([show-only-header]) #author-name::before {
+    position: absolute;
+    top: 3px;
+    left: -75px;
+    content: "";
+    display: block;
+    height: 100px;
+    width: 65px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/0-1_0000s_0002_GIVER.png) no-repeat;
+    background-size: 100%
+}
+
+yt-live-chat-paid-message-renderer[price-level="1000"]:not([show-only-header]) #purchase-amount {
+    line-height: 15px !important;
+    font-size: 15px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    position: absolute !important;
+    top: -35px !important;
+    right: 10px;
+    z-index: 20 !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="1000"]:not([show-only-header]) #content {
+    padding: 5px 40px 10px 200px !important;
+    background-color: transparent !important
+}
+
+yt-live-chat-paid-message-renderer[price-level="1000"]:not([show-only-header]) #message {
+    text-align: center;
+    line-height: 1.2 !important;
+    font-size: 28px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    text-shadow: 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000, 0 0 2px #a50000;
+    font-weight: 700 !important
+}
+
+yt-live-chat-ticker-renderer {
+    display: block !important;
+    background-color: transparent !important;
+    height: 68px !important;
+    padding-top: 20px !important
+}
+
+yt-live-chat-ticker-renderer>div {
+    height: 100% !important
+}
+
+yt-live-chat-ticker-renderer #items {
+    height: 100% !important;
+    padding: 0 24px !important
+}
+
+yt-live-chat-ticker-paid-message-item-renderer {
+    width: auto !important;
+    margin: 0 !important
+}
+
+yt-live-chat-ticker-paid-message-item-renderer #container {
+    background: 0 0 !important;
+    padding: 0 !important
+}
+
+yt-live-chat-ticker-paid-message-item-renderer yt-img-shadow {
+    position: absolute !important;
+    top: -15px !important;
+    left: -55px !important;
+    height: 50px !important;
+    width: 50px !important;
+    overflow: visible !important;
+    z-index: 10
+}
+
+yt-live-chat-ticker-paid-message-item-renderer span {
+    font-size: 27px !important;
+    font-family: "台灣圓體" !important;
+    font-weight: 700 !important;
+    margin: 0 !important
+}
+
+yt-live-chat-ticker-paid-message-item-renderer[type="2"] #content::after {
+    font-size: 27px !important;
+    margin: 0 !important
+}
+
+yt-live-chat-ticker-paid-message-item-renderer[type="1"] span,
+yt-live-chat-ticker-paid-message-item-renderer[type="2"] #content::after,
+yt-live-chat-ticker-paid-message-item-renderer[type="3"] span {
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    text-shadow: 0 0 2px #0a0c10, 0 0 2px #0a0c10, 0 0 2px #0a0c10, 0 0 2px #0a0c10, 0 0 2px #0a0c10, 0 0 2px #0a0c10, 0 0 2px #0a0c10, 0 0 2px #0a0c10, 0 0 2px #0a0c10, 0 0 2px #0a0c10, 0 0 2px #0a0c10, 0 0 2px #0a0c10, 0 0 2px #0a0c10, 0 0 2px #0a0c10, 0 0 2px #0a0c10;
+    font-weight: 700 !important
+}
+
+yt-live-chat-ticker-paid-message-item-renderer #content {
+    position: relative !important;
+    padding: 0 !important;
+    border-width: 15px 55px 19px 65px !important;
+    border-style: solid;
+    border-color: #eee
+}
+
+yt-live-chat-ticker-paid-message-item-renderer[type="1"] #content {
+    padding: 2px 0 0 !important;
+    border-width: 18px 20px 21px 75px !important;
+    border-style: solid !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/未标题-1_0001s_0002_图层-12.png) 18 20 23 75 fill !important
+}
+
+yt-live-chat-ticker-paid-message-item-renderer[type="2"] #content,
+yt-live-chat-ticker-paid-message-item-renderer[type="3"] #content {
+    padding: 2px 0 0 !important;
+    border-width: 18px 20px 21px 75px !important;
+    border-style: solid !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/未标题-1_0002s_0002_图层-12.png) 18 20 23 75 fill !important
+}
+
+yt-live-chat-ticker-paid-message-item-renderer[type="3"] #content {
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/未标题-1_0000s_0002_图层-12.png) 18 20 23 75 fill !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #card,
+yt-live-chat-text-message-renderer[author-type=concern] #card {
+    width: 100% !important;
+    position: relative !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #content,
+yt-live-chat-text-message-renderer[author-type=concern] #content {
+    position: relative !important;
+    width: 100% !important;
+    padding: 0 !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] yt-live-chat-author-chip,
+yt-live-chat-text-message-renderer[author-type=concern] yt-live-chat-author-chip {
+    margin: 0 !important;
+    position: static;
+    z-index: 25
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #author-name,
+yt-live-chat-text-message-renderer[author-type=concern] #author-name {
+    background: 0 0 !important;
+    z-index: 100;
+    position: absolute;
+    top: 33px;
+    left: 9px;
+    line-height: 1 !important;
+    font-size: 18px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    padding: 0 0 0 8px !important;
+    border-radius: 9px !important;
+    border-width: 5px 20px 5px 5px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/弹幕-房管_0000s_0000s_0001_矩形-2.png) 5 20 5 5 fill !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #medal-name,
+yt-live-chat-text-message-renderer[author-type=concern] #medal-name {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    z-index: 100;
+    color: #6b6b70;
+    background: #fff;
+    border-radius: 10px;
+    padding: 4px 10px;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    font-family: "思源黑体" !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #medal-level,
+yt-live-chat-text-message-renderer[author-type=concern] #medal-level {
+    position: absolute;
+    right: 26px;
+    top: 60px;
+    background: 0 0 !important;
+    letter-spacing: 3px;
+    font-style: italic;
+    font-weight: 700 !important;
+    font-size: 85px !important;
+    font-family: "思源黑体" !important;
+    color: #d8ad51;
+    -webkit-text-stroke: 2px #fff
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #image-and-message,
+yt-live-chat-text-message-renderer[author-type=concern] #image-and-message {
+    width: 100% !important;
+    display: flex !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+    border-width: 50px 15px 15px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/弹幕-房管_0000s_0005_底.png) 50 15 15 15 fill !important;
+    position: relative !important;
+    padding: 0 240px 10px 15px !important;
+    z-index: 10 !important;
+    min-height: 130px;
+    align-items: center
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #message,
+yt-live-chat-text-message-renderer[author-type=concern] #message {
+    line-height: 1.2 !important;
+    font-size: 28px !important;
+    font-family: "思源黑体" !important;
+    color: #fff !important;
+    text-shadow: 0 0 3px #000, 0 0 3px #000, 0 0 3px #000;
+    font-weight: 700 !important;
+    padding: 0 0 0 5px !important;
+    overflow: visible;
+    display: block;
+    align-self: center
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #author-photo,
+yt-live-chat-text-message-renderer[author-type=concern] #author-photo {
+    position: absolute !important;
+    top: 35px !important;
+    right: 125px !important;
+    height: 92px !important;
+    width: 92px !important;
+    overflow: visible !important;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #author-photo::before,
+yt-live-chat-text-message-renderer[author-type=concern] #author-photo::before {
+    position: absolute;
+    top: -14px;
+    left: -14px;
+    content: "";
+    display: block;
+    height: 120px;
+    width: 120px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B10简约·则/弹幕-舰长_0000s_0000_头像.png) no-repeat;
+    background-size: 100;
+    z-index: 99
+}
+
+进程已结束,退出代码0

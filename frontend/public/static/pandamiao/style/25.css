@@ -1,0 +1,868 @@
+@font-face {
+    font-family: '台灣圓體';
+    src: url(static/pandamiao/lfcss.pandamiao.com/ZT/TaiwanPearl-SemiBold.ttf) format('opentype')
+}
+
+yt-live-chat-text-message-renderer #image-and-message .emoji {
+    width: 100px !important;
+    height: auto !important;
+    padding-top: 2px
+}
+
+yt-live-chat-text-message-renderer #image-and-message .image {
+    display: inline-block !important;
+    margin: 0 5px !important;
+    padding-top: 15px
+}
+
+body,
+yt-live-chat-renderer,
+yt-live-chat-ticker-renderer {
+    background-color: transparent !important
+}
+
+::-webkit-scrollbar {
+    display: none !important
+}
+
+#medal-name,
+yt-live-chat-author-medal-renderer:not([is-fan-group]) {
+    display: none !important
+}
+
+#medal-card {
+    color: transparent !important;
+    background-color: transparent !important;
+    border: 0 !important;
+    position: static !important
+}
+
+#chat-badges,
+#medal-level,
+yt-live-chat-ticker-renderer {
+    display: none !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""],
+yt-live-chat-text-message-renderer[author-type=comein],
+yt-live-chat-text-message-renderer[author-type=concern],
+yt-live-chat-text-message-renderer[author-type=member],
+yt-live-chat-text-message-renderer[author-type=moderator],
+yt-live-chat-text-message-renderer[author-type=owner] {
+    margin: 40px 20px 40px 40px !important;
+    padding: 50px 0 10px 120px !important;
+    overflow: visible !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #content {
+    position: relative !important;
+    border-width: 20px 30px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-普通_0000s_0003_图层-11.png) 20 30 20 30 fill !important;
+    padding: 10px 0 !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #content::before {
+    position: absolute;
+    top: -40px;
+    right: -45px;
+    content: "";
+    display: block;
+    height: 100px;
+    width: 80px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-普通_0000s_0002_1.png) no-repeat;
+    background-size: 100%;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[author-type=""] yt-live-chat-author-chip,
+yt-live-chat-text-message-renderer[author-type=comein] yt-live-chat-author-chip,
+yt-live-chat-text-message-renderer[author-type=concern] yt-live-chat-author-chip,
+yt-live-chat-text-message-renderer[author-type=member] yt-live-chat-author-chip,
+yt-live-chat-text-message-renderer[author-type=moderator] yt-live-chat-author-chip,
+yt-live-chat-text-message-renderer[author-type=owner] yt-live-chat-author-chip {
+    margin: 0 !important;
+    position: absolute;
+    top: -70px;
+    left: 0
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-name {
+    white-space: nowrap;
+    font-size: 26px;
+    font-family: "台灣圓體";
+    color: #a05361;
+    text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff;
+    font-weight: 700;
+    line-height: 1;
+    text-align: left;
+    padding: 4px 8px !important;
+    position: relative !important;
+    border-radius: 8px
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-name::before {
+    position: absolute;
+    top: 2px;
+    left: -30px;
+    content: "";
+    display: block;
+    height: 30px;
+    width: 30px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-普通_0000s_0000s_0000_多边形-2.png) no-repeat;
+    background-size: 100%;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #message {
+    display: block !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+    position: relative !important;
+    margin: -15px 0 !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 34px;
+    font-family: "台灣圓體";
+    color: #7d2f0b !important;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-photo {
+    position: absolute !important;
+    top: 10px !important;
+    left: -10px !important;
+    height: 115px !important;
+    width: 115px !important;
+    overflow: visible !important;
+    z-index: 110
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-photo::before {
+    position: absolute;
+    top: -5px;
+    left: -17px;
+    content: "";
+    display: block;
+    height: 170px;
+    width: 170px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-普通_0000s_0000_头像框.png) no-repeat;
+    background-size: 80%;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-photo img,
+yt-live-chat-text-message-renderer[author-type=member] #author-photo img,
+yt-live-chat-text-message-renderer[author-type=moderator] #author-photo img,
+yt-live-chat-text-message-renderer[author-type=owner] #author-photo img {
+    position: absolute;
+    top: 2px;
+    left: -12px;
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 50% !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #content,
+yt-live-chat-text-message-renderer[author-type=owner] #content {
+    position: relative !important;
+    border-width: 30px 30px 20px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-房管_0000s_0005_单位平铺.png) 30 30 20 30 fill !important;
+    padding: 14px 0 15px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #content::before,
+yt-live-chat-text-message-renderer[author-type=owner] #content::before {
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    content: "";
+    display: block;
+    height: 100px;
+    width: 110px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-房管_0000s_0003_1.png) no-repeat;
+    background-size: 100%;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #content::after,
+yt-live-chat-text-message-renderer[author-type=owner] #content::after {
+    position: absolute;
+    top: -41px;
+    left: -40px;
+    content: "";
+    display: block;
+    height: 100px;
+    width: 100px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-房管_0000s_0004_2.png) no-repeat;
+    background-size: 100%;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #author-name,
+yt-live-chat-text-message-renderer[author-type=owner] #author-name {
+    background: 0 0 !important;
+    white-space: nowrap;
+    font-size: 26px;
+    font-family: "台灣圓體";
+    color: #a05361 !important;
+    text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff;
+    font-weight: 700;
+    line-height: 1;
+    text-align: left;
+    padding: 4px 8px !important;
+    position: relative !important;
+    border-radius: 8px
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #author-name::before,
+yt-live-chat-text-message-renderer[author-type=owner] #author-name::before {
+    position: absolute;
+    top: 2px;
+    left: -30px;
+    content: "";
+    display: block;
+    height: 30px;
+    width: 30px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-普通_0000s_0000s_0000_多边形-2.png) no-repeat;
+    background-size: 100%;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #message,
+yt-live-chat-text-message-renderer[author-type=owner] #message {
+    width: 100% !important;
+    display: block !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+    position: relative !important;
+    margin: -15px 0 !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 34px;
+    font-family: "台灣圓體";
+    color: #7060b2 !important;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #message::before,
+yt-live-chat-text-message-renderer[author-type=owner] #image-and-message::before {
+    position: absolute;
+    bottom: -42px;
+    right: -28px;
+    content: "";
+    display: block;
+    height: 40px;
+    width: 40px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-房管_0000s_0002_3.png) no-repeat;
+    background-size: 100%;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #author-photo,
+yt-live-chat-text-message-renderer[author-type=owner] #author-photo {
+    position: absolute !important;
+    top: 10px !important;
+    left: -10px !important;
+    height: 115px !important;
+    width: 115px !important;
+    overflow: visible !important;
+    z-index: 110
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #author-photo::before,
+yt-live-chat-text-message-renderer[author-type=owner] #author-photo::before {
+    position: absolute;
+    top: -5px;
+    left: -22px;
+    content: "";
+    display: block;
+    height: 175px;
+    width: 175px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-房管_0000s_0000_头像框.png) no-repeat;
+    background-size: 80%;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #content {
+    position: relative !important;
+    border-width: 30px 30px 20px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-舰长_0000s_0005_单位平铺.png) 30 30 20 30 fill !important;
+    padding: 14px 0 15px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #content::before {
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    content: "";
+    display: block;
+    height: 100px;
+    width: 110px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-舰长_0000s_0003_1.png) no-repeat;
+    background-size: 100%;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #content::after {
+    position: absolute;
+    top: -41px;
+    left: -40px;
+    content: "";
+    display: block;
+    height: 100px;
+    width: 100px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-舰长_0000s_0004_2.png) no-repeat;
+    background-size: 100%;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #author-name {
+    white-space: nowrap;
+    font-size: 26px;
+    font-family: "台灣圓體";
+    color: #a05361 !important;
+    text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff;
+    font-weight: 700;
+    line-height: 1;
+    text-align: left;
+    padding: 4px 8px !important;
+    position: relative !important;
+    border-radius: 8px
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #author-name::before {
+    position: absolute;
+    top: 2px;
+    left: -30px;
+    content: "";
+    display: block;
+    height: 30px;
+    width: 30px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-普通_0000s_0000s_0000_多边形-2.png) no-repeat;
+    background-size: 100%;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #message {
+    width: 100% !important;
+    display: block !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+    position: relative !important;
+    margin: -15px 0 !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 34px;
+    font-family: "台灣圓體";
+    color: #9f4053 !important;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #image-and-message::before {
+    position: absolute;
+    bottom: -42px;
+    right: -28px;
+    content: "";
+    display: block;
+    height: 40px;
+    width: 40px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-房管_0000s_0002_3.png) no-repeat;
+    background-size: 100%;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #author-photo {
+    position: absolute !important;
+    top: 10px !important;
+    left: -10px !important;
+    height: 115px !important;
+    width: 115px !important;
+    overflow: visible !important;
+    z-index: 110
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #author-photo::before {
+    position: absolute;
+    top: -5px;
+    left: -22px;
+    content: "";
+    display: block;
+    height: 175px;
+    width: 175px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-舰长_0000s_0000_头像框.png) no-repeat;
+    background-size: 80%;
+    z-index: 120
+}
+
+yt-live-chat-membership-item-renderer {
+    margin: 10px 0 !important;
+    overflow: visible !important;
+    padding: 60px 23px 10px 20px !important
+}
+
+yt-live-chat-membership-item-renderer #card {
+    position: relative !important;
+    overflow: visible !important
+}
+
+yt-live-chat-membership-item-renderer #header {
+    background-color: transparent !important;
+    position: relative !important;
+    height: 60px;
+    border: 20px solid transparent !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/礼物-上舰_0000s_0003_提示词.png) 20 fill !important
+}
+
+yt-live-chat-membership-item-renderer #header-content {
+    position: relative !important
+}
+
+yt-live-chat-membership-item-renderer yt-img-shadow {
+    position: absolute !important;
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%);
+    height: 100px !important;
+    width: 100px !important;
+    overflow: visible !important;
+    z-index: 100 !important
+}
+
+yt-live-chat-membership-item-renderer yt-img-shadow::before {
+    position: absolute;
+    top: -3px;
+    left: -5px;
+    content: "";
+    display: block;
+    height: 115px;
+    width: 110px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/礼物-上舰_0000s_0000_头像框.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-membership-item-renderer yt-img-shadow img {
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 50% !important
+}
+
+yt-live-chat-membership-item-renderer #header-content-primary-column {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 0 !important
+}
+
+yt-live-chat-membership-item-renderer yt-live-chat-author-chip {
+    position: absolute !important;
+    top: -27px;
+    left: -380px
+}
+
+yt-live-chat-membership-item-renderer #author-name {
+    max-width: 295px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: absolute;
+    left: 380px;
+    top: 8px;
+    line-height: 26px !important;
+    font-size: 26px !important;
+    font-family: "台灣圓體" !important;
+    font-weight: 700 !important;
+    color: #fff !important;
+    background-color: transparent !important;
+    padding: 0 !important;
+    white-space: nowrap !important;
+    border-radius: 12px !important;
+    border-width: 5px 20px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/礼物-上舰_0000s_0002_矩形-1.png) 5 20 fill !important
+}
+
+yt-live-chat-membership-item-renderer #header-subtext {
+    display: none !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] {
+    padding: 0 40px 10px 30px !important;
+    margin: 5px 0 !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #card {
+    padding: 40px 90px !important;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/礼物-免费_0000s_0003_1.png) no-repeat !important;
+    background-size: 100% 100% !important;
+    position: relative !important;
+    box-shadow: none !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #header {
+    background: 0 0 !important;
+    padding: 0 !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #header-content-primary-column {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-direction: row !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #author-name {
+    line-height: 34px !important;
+    font-size: 34px !important;
+    font-family: "台灣圓體" !important;
+    font-weight: 700;
+    color: #fff !important;
+    text-shadow: 0 0 4px #bd97a4, 0 0 4px #bd97a4, 0 0 4px #bd97a4, 0 0 4px #bd97a4, 0 0 4px #bd97a4, 0 0 4px #bd97a4, 0 0 4px #bd97a4, 0 0 4px #bd97a4, 0 0 4px #bd97a4, 0 0 4px #bd97a4
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #purchase-amount {
+    line-height: 25px !important;
+    font-size: 24.61px !important;
+    font-family: "台灣圓體" !important;
+    font-weight: 700;
+    color: #fff !important;
+    position: relative;
+    text-shadow: 0 0 2px #d491a0, 0 0 2px #d491a0, 0 0 2px #d491a0, 0 0 2px #d491a0, 0 0 2px #d491a0, 0 0 2px #d491a0, 0 0 2px #d491a0, 0 0 2px #d491a0
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #purchase-amount::before {
+    position: absolute;
+    top: -38px;
+    left: -140px;
+    content: "";
+    display: block;
+    height: 100px;
+    width: 150px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/礼物-免费_0000s_0000_提示词.png) no-repeat;
+    background-size: 100%;
+    z-index: 120
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] yt-img-shadow {
+    position: absolute !important;
+    top: -50px !important;
+    left: -110px !important;
+    height: 90px !important;
+    width: 90px !important;
+    overflow: visible !important;
+    z-index: 110
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] yt-img-shadow img {
+    display: none !important;
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 10px !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) {
+    padding: 0 150px 0 20px !important;
+    margin: 40px 0 !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #card {
+    background: 0 0 !important;
+    overflow: visible !important;
+    border-width: 15px 15px 25px !important;
+    border-style: solid;
+    border-color: #eee;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/送礼_0000s_0008_底框.png) 15 15 30 15 fill !important;
+    position: relative !important;
+    box-shadow: none !important;
+    padding: 35px 0 0 !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #card::before {
+    position: absolute;
+    top: -25px;
+    left: -30px;
+    content: "";
+    display: block;
+    height: 100px;
+    width: 80px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/送礼_0000s_0007_1.png) no-repeat;
+    background-size: 100%;
+    z-index: 120
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #card::after {
+    position: absolute;
+    top: -23px;
+    right: -15px;
+    content: "";
+    display: block;
+    height: 160px;
+    width: 80px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/送礼_0000s_0005_2.png) no-repeat;
+    background-size: 100%;
+    z-index: 120
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #header {
+    overflow: visible !important;
+    position: relative !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    min-height: 0 !important;
+    background-color: transparent !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-photo {
+    position: absolute !important;
+    top: -50px;
+    right: -150px;
+    height: 100px !important;
+    width: 100px !important;
+    overflow: visible !important;
+    z-index: 100 !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-photo::before {
+    position: absolute;
+    top: -8px;
+    left: -9px;
+    content: "";
+    display: block;
+    height: 160px;
+    width: 160px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/送礼_0000s_0004_头像框.png) no-repeat;
+    background-size: 80%;
+    z-index: 120
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-photo img {
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 50% !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #header-content-primary-column {
+    position: absolute;
+    top: -90px;
+    left: 80px;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 140px;
+    width: 100%
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-name {
+    line-height: 26px !important;
+    font-size: 26px !important;
+    font-family: "台灣圓體" !important;
+    font-weight: 700;
+    color: #853444 !important;
+    padding-left: 10px
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-name::before {
+    position: absolute;
+    top: 53px;
+    left: -25px;
+    content: "";
+    display: block;
+    height: 30px;
+    width: 30px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-普通_0000s_0000s_0000_多边形-2.png) no-repeat;
+    background-size: 100%;
+    z-index: 120
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #purchase-amount {
+    line-height: 20px !important;
+    font-size: 20px !important;
+    font-family: "台灣圓體" !important;
+    font-weight: 700;
+    color: #853444 !important;
+    padding-right: 150px
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #content {
+    padding: 8px 60px 0 90px !important;
+    position: relative !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    background-color: transparent !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #content::before {
+    position: absolute;
+    bottom: -52px;
+    left: 3px;
+    content: "";
+    display: block;
+    height: 40px;
+    width: 40px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/送礼_0000s_0006_3.png) no-repeat;
+    background-size: 100%;
+    z-index: 120
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #message {
+    line-height: 38px !important;
+    font-size: 36.5px !important;
+    font-family: "台灣圓體" !important;
+    font-weight: 700;
+    color: #ac6472 !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #message:empty {
+    display: block !important;
+    min-height: 38px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #content,
+yt-live-chat-text-message-renderer[author-type=concern] #content {
+    position: relative !important;
+    border-width: 30px 30px 20px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-image: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-房管_0000s_0005_单位平铺.png) 30 30 20 30 fill !important;
+    padding: 14px 0 15px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #content::before,
+yt-live-chat-text-message-renderer[author-type=concern] #content::before {
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    content: "";
+    display: block;
+    height: 100px;
+    width: 110px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-房管_0000s_0003_1.png) no-repeat;
+    background-size: 100%;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #content::after,
+yt-live-chat-text-message-renderer[author-type=concern] #content::after {
+    position: absolute;
+    top: -41px;
+    left: -40px;
+    content: "";
+    display: block;
+    height: 100px;
+    width: 100px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-房管_0000s_0004_2.png) no-repeat;
+    background-size: 100%;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #author-name,
+yt-live-chat-text-message-renderer[author-type=concern] #author-name {
+    background: 0 0 !important;
+    white-space: nowrap;
+    font-size: 26px;
+    font-family: "台灣圓體";
+    color: #a05361 !important;
+    text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff;
+    font-weight: 700;
+    line-height: 1;
+    text-align: left;
+    padding: 4px 8px !important;
+    position: relative !important;
+    border-radius: 8px
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #author-name::before,
+yt-live-chat-text-message-renderer[author-type=concern] #author-name::before {
+    position: absolute;
+    top: 2px;
+    left: -30px;
+    content: "";
+    display: block;
+    height: 30px;
+    width: 30px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-普通_0000s_0000s_0000_多边形-2.png) no-repeat;
+    background-size: 100%;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #message,
+yt-live-chat-text-message-renderer[author-type=concern] #message {
+    width: 100% !important;
+    display: block !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+    position: relative !important;
+    margin: -15px 0 !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 34px;
+    font-family: "台灣圓體";
+    color: #7060b2 !important;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #image-and-message::before,
+yt-live-chat-text-message-renderer[author-type=concern] #message::before {
+    position: absolute;
+    bottom: -42px;
+    right: -28px;
+    content: "";
+    display: block;
+    height: 40px;
+    width: 40px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-房管_0000s_0002_3.png) no-repeat;
+    background-size: 100%;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #author-photo,
+yt-live-chat-text-message-renderer[author-type=concern] #author-photo {
+    position: absolute !important;
+    top: 10px !important;
+    left: -10px !important;
+    height: 115px !important;
+    width: 115px !important;
+    overflow: visible !important;
+    z-index: 110
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #author-photo::before,
+yt-live-chat-text-message-renderer[author-type=concern] #author-photo::before {
+    position: absolute;
+    top: -5px;
+    left: -22px;
+    content: "";
+    display: block;
+    height: 175px;
+    width: 175px;
+    background: url(static/pandamiao/lfcss.pandamiao.com/DM/B06星愿魔法/弹幕-房管_0000s_0000_头像框.png) no-repeat;
+    background-size: 80%;
+    z-index: 120
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #author-photo img,
+yt-live-chat-text-message-renderer[author-type=concern] #author-photo img {
+    position: absolute;
+    top: 2px;
+    left: -12px;
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 50% !important
+}
