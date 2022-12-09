@@ -17,7 +17,7 @@ class hxcmLeak {
     list = null
 
     array() {
-        return Array.from(this.list.values((a, b) => { return a.id.localeCompare(b.id) }))
+        return Array.from(this.list.values((a, b) => { return a.updateTime.localeCompare(b.updateTime) }))
     }
 }
 

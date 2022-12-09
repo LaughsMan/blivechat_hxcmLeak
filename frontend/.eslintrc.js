@@ -25,7 +25,7 @@ module.exports = {
     "eol-last": "error", // 文件末尾加换行符
     "func-call-spacing": "error", // 调用函数名和括号间不加空格
     "func-style": ["error", "declaration", { "allowArrowFunctions": true }], // 使用函数定义语法，而不是把函数表达式赋值到变量
-    "indent": ["error", 2], // 缩进2空格
+    "indent": ["warn", 2], // 缩进2空格
     "key-spacing": ["error", { "mode": "minimum" }],
     "keyword-spacing": "error", // 关键词前后加空格
     "lines-between-class-members": "error", // 类成员定义间加空格

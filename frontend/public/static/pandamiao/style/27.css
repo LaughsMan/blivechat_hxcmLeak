@@ -1,0 +1,1145 @@
+@font-face {
+    font-family: 'Source Han Serif SC';
+    src: url(static/pandamiao/lfcss.pandamiao.com/ZT/思源宋体.OTF) format('opentype')
+}
+
+@font-face {
+    font-family: 'Source Han Sans CN';
+    src: url(static/pandamiao/lfcss.pandamiao.com/ZT/SOURCEHANSANSCN-HEAVY.OTF) format('opentype')
+}
+
+yt-live-chat-text-message-renderer #image-and-message .emoji {
+    width: auto !important;
+    height: 110px !important
+}
+
+body,
+yt-live-chat-renderer {
+    background-color: transparent !important
+}
+
+::-webkit-scrollbar {
+    display: none !important
+}
+
+#chat-badges,
+#chat-medal {
+    display: none !important
+}
+
+yt-live-chat-ticker-renderer {
+    display: none !important
+}
+
+yt-live-chat-text-message-renderer #image-and-message .emoji {
+    width: auto !important;
+    height: 110px !important
+}
+
+body,
+yt-live-chat-renderer {
+    background-color: transparent !important
+}
+
+::-webkit-scrollbar {
+    display: none !important
+}
+
+#chat-badges,
+#chat-medal,
+yt-live-chat-ticker-renderer {
+    display: none !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""],
+yt-live-chat-text-message-renderer[author-type=member] {
+    position: relative !important;
+    margin: 18px !important;
+    overflow: visible !important;
+    border: 85px solid transparent !important;
+    padding: 0 60px 0 0 !important;
+    border-image: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/back.png) 85 fill !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #card {
+    width: 100% !important;
+    position: relative
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #card::before {
+    position: absolute;
+    right: -90px;
+    bottom: -30px;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    height: 119px;
+    width: 100px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/back1.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #card::after {
+    position: absolute;
+    right: 22px;
+    top: -60px;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    height: 49px;
+    width: 200px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/back2.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #content {
+    padding: 0 !important;
+    width: 100% !important;
+    margin-top: -40px !important;
+    min-height: 140px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] yt-live-chat-author-chip {
+    bottom: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    align-self: center;
+    background-image: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/name.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-name::after,
+yt-live-chat-text-message-renderer[author-type=""] #author-name::before {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 25px;
+    width: 30px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/name1.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-name::before {
+    left: -30px;
+    transform: translateX(-50%)
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-name::after {
+    right: -30px;
+    top: 12px;
+    transform: translateX(50%)
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-name {
+    padding: 13px 8px !important;
+    margin: 0 18px !important;
+    font-size: 25px;
+    font-family: Source Han Serif SC;
+    line-height: 25px;
+    font-weight: 800;
+    color: #fff !important;
+    background-color: transparent !important;
+    text-shadow: 0 0 4.5px #1f215b
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #image-and-message {
+    top: 30px;
+    position: relative;
+    text-align: center;
+    width: 100% !important;
+    display: inline-block !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+    padding: 0 160px 0 220px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #message {
+    line-height: 50px !important;
+    font-size: 45px;
+    font-family: "Source Han Sans CN";
+    font-weight: 800;
+    color: #fff !important;
+    -webkit-text-stroke: 2px #9186ba;
+    background-size: 100% 100%;
+    border-radius: 25px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-photo {
+    position: absolute !important;
+    top: -18px !important;
+    left: 30px !important;
+    height: 157px !important;
+    width: 157px !important;
+    overflow: visible !important;
+    z-index: 99 !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-photo::before {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    content: "";
+    display: block;
+    height: 174px;
+    width: 265px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/icon.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #author-photo img {
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 30px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=""] #image-and-message img {
+    display: inline-block !important;
+    margin: 20px 3px -2px !important;
+    height: 80px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] {
+    border-image: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/舰长_0000s_0004_背景.png) 85 fill !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #card {
+    width: 100% !important;
+    position: relative
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #card::before {
+    position: absolute;
+    right: -90px;
+    bottom: -35px;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    height: 144px;
+    width: 144px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/舰长_0000s_0002_2.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #card::after {
+    position: absolute;
+    right: -40px;
+    top: -60px;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    height: 49px;
+    width: 240px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/舰长_0000s_0003_1.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #content {
+    padding: 0 !important;
+    width: 100% !important;
+    margin-top: -40px !important;
+    min-height: 140px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] yt-live-chat-author-chip,
+yt-live-chat-text-message-renderer[author-type=concern] yt-live-chat-author-chip,
+yt-live-chat-text-message-renderer[author-type=member] yt-live-chat-author-chip,
+yt-live-chat-text-message-renderer[author-type=moderator] yt-live-chat-author-chip,
+yt-live-chat-text-message-renderer[author-type=owner] yt-live-chat-author-chip {
+    bottom: -88px;
+    left: 50%;
+    transform: translateX(-50%);
+    align-self: center;
+    background-image: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/舰长name.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #author-name::after,
+yt-live-chat-text-message-renderer[author-type=member] #author-name::before {
+    position: absolute;
+    bottom: 15px;
+    content: "";
+    display: block;
+    height: 34px;
+    width: 37px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/舰长name1.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #author-name::before {
+    left: 50px;
+    transform: translateX(-50%)
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #author-name::after {
+    right: 50px;
+    transform: translateX(50%)
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #author-name {
+    padding: 20px 80px !important;
+    margin: 0 40px !important;
+    font-size: 25px;
+    font-family: Source Han Serif SC;
+    line-height: 25px;
+    font-weight: 800;
+    color: #fff !important;
+    background-color: transparent !important;
+    text-shadow: 0 0 4.5px #1f215b
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #image-and-message {
+    top: 30px;
+    position: relative;
+    text-align: center;
+    width: 100% !important;
+    display: inline-block !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+    padding: 0 160px 0 220px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #message {
+    line-height: 50px !important;
+    font-size: 45px;
+    font-family: "Source Han Sans CN";
+    font-weight: 800;
+    color: #fff !important;
+    -webkit-text-stroke: 2px #9186ba;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #author-photo {
+    position: absolute !important;
+    top: -18px !important;
+    left: 30px !important;
+    height: 157px !important;
+    width: 157px !important;
+    overflow: visible !important;
+    z-index: 99 !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #author-photo::before {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    content: "";
+    display: block;
+    height: 174px;
+    width: 265px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/舰长_0000s_0001_头像框.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #author-photo img {
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 30px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=member] #image-and-message img {
+    display: inline-block !important;
+    margin: 20px 3px -2px !important;
+    height: 80px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein],
+yt-live-chat-text-message-renderer[author-type=concern],
+yt-live-chat-text-message-renderer[author-type=moderator],
+yt-live-chat-text-message-renderer[author-type=owner] {
+    position: relative !important;
+    margin: 18px !important;
+    overflow: visible !important;
+    border: 85px solid transparent !important;
+    padding: 0 60px 0 0 !important;
+    border-image: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/房管_0000s_0006_背景.png) 85 fill !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #card {
+    width: 100% !important;
+    position: relative
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #card::before {
+    position: absolute;
+    right: -90px;
+    bottom: -35px;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    height: 144px;
+    width: 144px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/房管_0000s_0004_2.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #card::after {
+    position: absolute;
+    right: -40px;
+    top: -60px;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    height: 49px;
+    width: 240px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/房管_0000s_0005_1.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #content {
+    padding: 0 !important;
+    width: 100% !important;
+    margin-top: -40px !important;
+    min-height: 140px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #author-name::after,
+yt-live-chat-text-message-renderer[author-type=moderator] #author-name::before {
+    position: absolute;
+    bottom: 15px;
+    content: "";
+    display: block;
+    height: 34px;
+    width: 37px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/房管_0000s_0000_2.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #author-name::before {
+    left: 50px;
+    transform: translateX(-50%)
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #author-name::after {
+    right: 50px;
+    transform: translateX(50%)
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #author-name {
+    padding: 20px 80px !important;
+    margin: 0 40px !important;
+    font-size: 25px;
+    font-family: Source Han Serif SC;
+    line-height: 25px;
+    font-weight: 800;
+    color: #fff !important;
+    background-color: transparent !important;
+    text-shadow: 0 0 4.5px #1f215b
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #image-and-message {
+    top: 30px;
+    position: relative;
+    text-align: center;
+    width: 100% !important;
+    display: inline-block !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+    padding: 0 160px 0 220px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #message {
+    line-height: 50px !important;
+    font-size: 45px;
+    font-family: "Source Han Sans CN";
+    font-weight: 800;
+    color: #fff !important;
+    -webkit-text-stroke: 2px #9186ba;
+    background-size: 100% 100%
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] yt-img-shadow,
+yt-live-chat-text-message-renderer[author-type=moderator] #author-photo {
+    position: absolute !important;
+    top: -18px !important;
+    left: 30px !important;
+    height: 157px !important;
+    width: 157px !important;
+    overflow: visible !important;
+    z-index: 99 !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #author-photo::before {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    content: "";
+    display: block;
+    height: 174px;
+    width: 265px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/房管_0000s_0002_头像框.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-membership-item-renderer yt-img-shadow img,
+yt-live-chat-paid-message-renderer[show-only-header=true] yt-img-shadow img,
+yt-live-chat-text-message-renderer[author-type=moderator] #author-photo img {
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 30px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=moderator] #image-and-message img {
+    display: inline-block !important;
+    height: 80px !important;
+    margin: 20px 3px -2px !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] {
+    padding: 10px !important;
+    margin: 0 !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #card {
+    background: 0 0 !important;
+    box-shadow: none !important;
+    position: relative !important;
+    margin: 18px !important;
+    overflow: visible !important;
+    border: 85px solid transparent !important;
+    padding: 20px 60px 20px 0 !important;
+    border-image: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/免费_0000s_0008_背景.png) 85 fill !important;
+    min-height: 60px !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #header {
+    background: 0 0 !important;
+    padding: 5px 0 !important;
+    position: static !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #header::before {
+    position: absolute;
+    bottom: -90px;
+    right: 0;
+    content: "";
+    display: block;
+    height: 96px;
+    width: 291px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/免费_0000s_0000_1.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #header-content-primary-column {
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-direction: row !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #author-name {
+    margin: 0 !important;
+    padding: 3px 120px 6px !important;
+    position: absolute !important;
+    top: -25px;
+    left: 200px;
+    font-size: 33px;
+    font-family: Source Han Serif SC;
+    line-height: 33px;
+    font-weight: 800;
+    color: #fff !important;
+    align-self: center;
+    background-image: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/免费_0000s_0003_矩形-3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #author-name::after,
+yt-live-chat-paid-message-renderer[show-only-header=true] #author-name::before {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 25px;
+    width: 30px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/免费_0000s_0002_2.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #author-name::before {
+    left: 10px
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #author-name::after {
+    top: 4px;
+    right: 10px
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] #purchase-amount {
+    position: absolute;
+    top: 25px;
+    transform: translateX(50%);
+    line-height: 50px !important;
+    margin: 0 40px 30px 120px !important;
+    font-size: 45px;
+    font-family: "Source Han Sans CN";
+    font-weight: 800;
+    color: #fff !important;
+    -webkit-text-stroke: 2px #9186ba;
+    background-size: 100% 100%;
+    background-color: #c2bee9 !important;
+    display: inline-block !important;
+    padding: 0 30px !important
+}
+
+yt-live-chat-paid-message-renderer[show-only-header=true] yt-img-shadow::before {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    content: "";
+    display: block;
+    height: 174px;
+    width: 265px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/免费_0000s_0006_头像框.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) {
+    padding: 0 !important;
+    margin: 0 !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #card {
+    background: 0 0 !important;
+    box-shadow: none !important;
+    position: relative !important;
+    margin: 18px !important;
+    overflow: visible !important;
+    border: 85px solid transparent !important;
+    padding: 10px 60px 10px 0 !important;
+    border-image: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/礼物_0000s_0004_背景.png) 85 fill !important;
+    min-height: 60px !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #card::before {
+    position: absolute;
+    bottom: -90px;
+    right: 0;
+    content: "";
+    display: block;
+    height: 152px;
+    width: 570px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/礼物_0000s_0000_装饰.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #header {
+    overflow: visible !important;
+    position: relative !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    min-height: 0 !important;
+    background-color: transparent !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-photo {
+    position: absolute !important;
+    top: -40px !important;
+    left: 30px !important;
+    height: 157px !important;
+    width: 157px !important;
+    overflow: visible !important;
+    z-index: 99 !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-photo::before {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    content: "";
+    display: block;
+    height: 174px;
+    width: 265px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/礼物_0000s_0002_头像框.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-photo img {
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 30px !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #header-content-primary-column {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    margin: 0 20px !important;
+    padding: 0 !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-name {
+    margin: 0 !important;
+    padding: 3px 120px 6px !important;
+    position: absolute !important;
+    top: -25px;
+    left: 200px;
+    font-size: 33px;
+    font-family: Source Han Serif SC;
+    line-height: 33px;
+    font-weight: 800;
+    color: #fff !important;
+    align-self: center;
+    background-image: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/免费_0000s_0003_矩形-3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-name::after,
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-name::before {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 25px;
+    width: 30px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/免费_0000s_0002_2.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-name::before {
+    left: 20px
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #author-name::after {
+    top: 4px;
+    right: 20px
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #purchase-amount {
+    font-family: "Source Han Sans CN";
+    color: #fff !important;
+    line-height: 22.5px !important;
+    font-size: 22.5px !important;
+    position: absolute;
+    top: -10px;
+    right: 100px;
+    text-shadow: 0 0 4.5px #1f215b
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #content {
+    padding: 5px 50px 20px 40px !important;
+    position: relative !important;
+    margin: 0 !important;
+    background-color: transparent !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #message {
+    position: absolute;
+    top: 25px;
+    transform: translateX(50%);
+    line-height: 50px !important;
+    margin: 0 40px 30px 120px !important;
+    font-size: 45px;
+    font-family: "Source Han Sans CN";
+    font-weight: 800;
+    color: #fff !important;
+    -webkit-text-stroke: 2px #9186ba;
+    background-size: 100% 100%;
+    background-color: #c2bee9 !important;
+    display: inline-block !important;
+    padding: 0 30px !important
+}
+
+yt-live-chat-paid-message-renderer:not([show-only-header]) #message:empty {
+    display: block !important;
+    min-height: 42px !important
+}
+
+yt-live-chat-membership-item-renderer {
+    padding: 20px !important;
+    margin: 0 !important
+}
+
+yt-live-chat-membership-item-renderer #card {
+    background: 0 0 !important;
+    box-shadow: none !important;
+    position: relative !important;
+    margin: 18px !important;
+    overflow: visible !important;
+    border: 75px solid transparent !important;
+    padding: 10px 60px 10px 0 !important;
+    border-image: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/上舰_0000s_0003_组-2.png) 75 fill !important
+}
+
+yt-live-chat-membership-item-renderer #header {
+    overflow: visible !important;
+    position: relative !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    min-height: 0 !important;
+    background-color: transparent !important
+}
+
+yt-live-chat-membership-item-renderer #header-content {
+    position: relative !important
+}
+
+yt-live-chat-membership-item-renderer #header-content::before {
+    position: absolute;
+    left: 25%;
+    top: -90px;
+    content: "";
+    display: block;
+    width: 816px;
+    height: 189px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/上舰_0000s_0002_组-4.png) no-repeat;
+    background-size: 80% 80%;
+    z-index: 120
+}
+
+yt-live-chat-membership-item-renderer yt-img-shadow {
+    position: absolute !important;
+    top: -65px !important;
+    left: 30px !important;
+    height: 157px !important;
+    width: 157px !important;
+    overflow: visible !important;
+    z-index: 99 !important
+}
+
+yt-live-chat-membership-item-renderer yt-img-shadow::before {
+    position: absolute;
+    top: -18px;
+    left: -30px;
+    content: "";
+    display: block;
+    height: 195px;
+    width: 265px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/上舰_0000s_0000_头像框.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-membership-item-renderer #header-content-primary-column {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    margin: 0 20px !important;
+    padding: 0 !important
+}
+
+yt-live-chat-membership-item-renderer #author-name {
+    margin: 0 !important;
+    padding: 15px 120px !important;
+    bottom: -90px;
+    font-size: 25px;
+    font-family: Source Han Serif SC;
+    line-height: 25px;
+    font-weight: 800;
+    color: #fff !important;
+    text-shadow: 0 0 4.5px #1f215b;
+    left: 50%;
+    transform: translateX(-50%);
+    align-self: center;
+    background-image: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/舰长name.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute !important
+}
+
+yt-live-chat-membership-item-renderer #author-name#author-name::after,
+yt-live-chat-membership-item-renderer #author-name#author-name::before {
+    position: absolute;
+    bottom: 12px;
+    content: "";
+    display: block;
+    height: 34px;
+    width: 37px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/舰长name1.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-membership-item-renderer #author-name#author-name::before {
+    left: 50px;
+    transform: translateX(-50%)
+}
+
+yt-live-chat-membership-item-renderer #author-name#author-name::after {
+    right: 50px;
+    transform: translateX(50%)
+}
+
+yt-live-chat-membership-item-renderer #header-subtext {
+    display: none !important
+}
+
+yt-live-chat-text-message-renderer[author-type=concern] #card {
+    width: 100% !important;
+    position: relative
+}
+
+yt-live-chat-text-message-renderer[author-type=concern] #card::before {
+    position: absolute;
+    right: -90px;
+    bottom: -35px;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    height: 144px;
+    width: 144px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/房管_0000s_0004_2.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=concern] #card::after {
+    position: absolute;
+    right: -40px;
+    top: -60px;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    height: 49px;
+    width: 240px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/房管_0000s_0005_1.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=concern] #content {
+    padding: 0 !important;
+    width: 100% !important;
+    margin-top: -40px !important;
+    min-height: 140px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=concern] #author-name::after,
+yt-live-chat-text-message-renderer[author-type=concern] #author-name::before {
+    position: absolute;
+    bottom: 15px;
+    content: "";
+    display: block;
+    height: 34px;
+    width: 37px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/房管_0000s_0000_2.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=concern] #author-name::before {
+    left: 50px;
+    transform: translateX(-50%)
+}
+
+yt-live-chat-text-message-renderer[author-type=concern] #author-name::after {
+    right: 50px;
+    transform: translateX(50%)
+}
+
+yt-live-chat-text-message-renderer[author-type=concern] #author-name {
+    padding: 20px 80px !important;
+    margin: 0 40px !important;
+    font-size: 25px;
+    font-family: Source Han Serif SC;
+    line-height: 25px;
+    font-weight: 800;
+    color: #fff !important;
+    background-color: transparent !important;
+    text-shadow: 0 0 4.5px #1f215b
+}
+
+yt-live-chat-text-message-renderer[author-type=concern] #image-and-message {
+    top: 30px;
+    position: relative;
+    text-align: center;
+    width: 100% !important;
+    display: inline-block !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+    padding: 0 160px 0 220px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=concern] #message {
+    line-height: 50px !important;
+    font-size: 45px;
+    font-family: "Source Han Sans CN";
+    font-weight: 800;
+    color: #fff !important;
+    -webkit-text-stroke: 2px #9186ba;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=concern] #author-photo {
+    position: absolute !important;
+    top: -18px !important;
+    left: 30px !important;
+    height: 157px !important;
+    width: 157px !important;
+    overflow: visible !important;
+    z-index: 99 !important
+}
+
+yt-live-chat-text-message-renderer[author-type=concern] #author-photo::before {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    content: "";
+    display: block;
+    height: 174px;
+    width: 265px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/房管_0000s_0002_头像框.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=concern] #author-photo img {
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 30px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=concern] #image-and-message img {
+    display: inline-block !important;
+    height: 80px !important;
+    margin: 20px 3px -2px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #card,
+yt-live-chat-text-message-renderer[author-type=owner] #card {
+    width: 100% !important;
+    position: relative
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #card::before,
+yt-live-chat-text-message-renderer[author-type=owner] #card::before {
+    position: absolute;
+    right: -90px;
+    bottom: -35px;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    height: 144px;
+    width: 144px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/房管_0000s_0004_2.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #card::after,
+yt-live-chat-text-message-renderer[author-type=owner] #card::after {
+    position: absolute;
+    right: -40px;
+    top: -60px;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    height: 49px;
+    width: 240px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/房管_0000s_0005_1.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #content,
+yt-live-chat-text-message-renderer[author-type=owner] #content {
+    padding: 0 !important;
+    width: 100% !important;
+    margin-top: -40px !important;
+    min-height: 140px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #author-name::before,
+yt-live-chat-text-message-renderer[author-type=owner] #author-name::before {
+    position: absolute;
+    left: 50px;
+    bottom: 15px;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    height: 34px;
+    width: 37px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/房管_0000s_0000_2.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #author-name::after,
+yt-live-chat-text-message-renderer[author-type=owner] #author-name::after {
+    position: absolute;
+    right: 50px;
+    bottom: 15px;
+    transform: translateX(50%);
+    content: "";
+    display: block;
+    height: 34px;
+    width: 37px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/房管_0000s_0000_2.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #author-name,
+yt-live-chat-text-message-renderer[author-type=owner] #author-name {
+    padding: 20px 80px !important;
+    margin: 0 40px !important;
+    font-size: 25px;
+    font-family: Source Han Serif SC;
+    line-height: 25px;
+    font-weight: 800;
+    color: #fff !important;
+    background-color: transparent !important;
+    text-shadow: 0 0 4.5px #1f215b
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #image-and-message,
+yt-live-chat-text-message-renderer[author-type=owner] #image-and-message {
+    top: 30px;
+    position: relative;
+    text-align: center;
+    width: 100% !important;
+    display: inline-block !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+    padding: 0 160px 0 220px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #message,
+yt-live-chat-text-message-renderer[author-type=owner] #message {
+    line-height: 50px !important;
+    font-size: 45px;
+    font-family: "Source Han Sans CN";
+    font-weight: 800;
+    color: #fff !important;
+    -webkit-text-stroke: 2px #9186ba;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #author-photo,
+yt-live-chat-text-message-renderer[author-type=owner] #author-photo {
+    position: absolute !important;
+    top: -18px !important;
+    left: 30px !important;
+    height: 157px !important;
+    width: 157px !important;
+    overflow: visible !important;
+    z-index: 99 !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #author-photo::before,
+yt-live-chat-text-message-renderer[author-type=owner] #author-photo::before {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    content: "";
+    display: block;
+    height: 174px;
+    width: 265px;
+    background: url(static/pandamiao/css.pandamiao.com/DM/LF/A31千山写尽/B/房管_0000s_0002_头像框.png) no-repeat;
+    background-size: 100% 100%
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #author-photo img,
+yt-live-chat-text-message-renderer[author-type=owner] #author-photo img {
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 30px !important
+}
+
+yt-live-chat-text-message-renderer[author-type=comein] #image-and-message img,
+yt-live-chat-text-message-renderer[author-type=owner] #image-and-message img {
+    display: inline-block !important;
+    height: 80px !important;
+    margin: 20px 3px -2px !important
+}
+
+#example-container {
+    width: 1400px
+}
+
+main div[style="padding-left: 10px; padding-right: 10px;"]:first-child {
+    width: 540px !important
+}

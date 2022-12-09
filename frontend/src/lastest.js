@@ -266,7 +266,29 @@ export const hxcmData = {
                 "updateTime": "2022-11-12T11:44:50",
                 "id": 5, "catalogue": "可爱手绘"
             }
+            ,
+            {
+                "materialName": "A31千山写尽养成风格-最佳宽度1400",
+                "subTitle": "",
+                "createTime": "2022-10-28T05:57:02",
+                "price": 3500, "coverImage": "http://xmiao.oss-cn-hangzhou.aliyuncs.com/images/1670506640581.png",
+                "name": "千山写尽养成风格-最佳宽度1400",
+                "pid": "A31",
+                "updateTime": "2022-12-08T13:47:26",
+                "id": 27, "catalogue": "古风"
+            }
+            ,
+            {
+                "materialName": "A31千山写尽-最佳宽度800",
+                "subTitle": "",
+                "createTime": "2022-10-17T06:22:21",
+                "price": 3500, "coverImage": "http://xmiao.oss-cn-hangzhou.aliyuncs.com/images/1670505660690.png",
+                "name": "千山写尽-最佳宽度800",
+                "pid": "A31",
+                "updateTime": "2022-12-08T13:40:01",
+                "id": 13, "catalogue": "古风"
+            }
         ],
-        "last-update": "2022-11-19 13:57:33"
+        "last-update": "2022-12-09 11:24:33"
     }
 }
