@@ -3,13 +3,12 @@
     <el-form label-width="150px" size="mini">
       <h3>样式选择</h3>
       <el-table id="hxcmlist" :data="styles" :default-sort="{ prop: 'updateTime', order: 'descending' }">
-        <el-table-column prop="id" label="发布顺序" sortable width="100"> </el-table-column>
+        <el-table-column prop="pid" label="商品ID" sortable width="88"> </el-table-column>
         <el-table-column prop="preview" label="预览" min-width="320">
           <template slot-scope="scope">
             <el-image :src="scope.row.preview" fit="contain"></el-image>
           </template>
         </el-table-column>
-        <el-table-column prop="pid" label="商品ID" sortable width="88"> </el-table-column>
         <el-table-column prop="name" label="标题"> </el-table-column>
         <el-table-column prop="catalogue" label="类别" sortable width="100"> </el-table-column>
         <!-- <el-table-column prop="defaultWidth" label="建议宽度" sortable width="100"> </el-table-column> -->

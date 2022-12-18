@@ -288,6 +288,17 @@ export const hxcmData = {
                 "updateTime": "2022-12-08T13:40:01",
                 "id": 13, "catalogue": "古风"
             }
+            ,
+            {
+                "materialName": "A32好柿花生-最佳宽度800",
+                "subTitle": "",
+                "createTime": "2022-12-15T08:10:19",
+                "price": 0, "coverImage": "http://xmiao.oss-cn-hangzhou.aliyuncs.com/images/1671261150923.png",
+                "name": "好柿花生-最佳宽度800",
+                "pid": "A32",
+                "updateTime": "2022-12-17T07:12:32",
+                "id": 33, "catalogue": "可爱手绘"
+            }
         ],
         "last-update": "2022-12-09 11:24:33"
     }
